@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://Cyber-Aju.github.io/demo/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'The Lone Coder Aju : Blog'
+theme='hugo-PaperMod'
