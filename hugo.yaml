@@ -1,0 +1,32 @@
+baseURL: 'https://Cyber-Aju.github.io/demo/'
+languageCode: 'en-us'
+title: 'The Lone Coder Aju Blog'
+theme: 'hugo-PaperMod'
+
+params:
+  author: 'Ajmal Akram'
+  homeInfoParams:
+    Title: 'Hi there ..'
+    Content: 'Welcome to **The Loner Codes of Aju**. This space is dedicated to sharing my experiences with code and delving into the thoughts that have left a lasting impact on me.'
+  socialIcons:
+    - name: Github
+      url: 'https://github.com/Cyber-Aju'
+    - name: Linkedln
+      url: 'https://www.linkedin.com/in/ajmal-akram/'
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
