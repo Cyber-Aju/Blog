@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>The Lone Coder Aju Blog</title>
-    <link>https://Cyber-Aju.github.io/demo/</link>
-    <description>Recent content on The Lone Coder Aju Blog</description>
+    <title>hugo on The Lone Coder Aju Blog</title>
+    <link>https://Cyber-Aju.github.io/demo/tags/hugo/</link>
+    <description>Recent content in hugo on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First Blog</title>
-      <link>https://Cyber-Aju.github.io/demo/first-blog/</link>
-      <pubDate>Sun, 03 Dec 2023 13:25:07 +0530</pubDate>
-      
-      <guid>https://Cyber-Aju.github.io/demo/first-blog/</guid>
-      <description>Here is the blog post. Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Art Of Subtle Influence</title>
       <link>https://Cyber-Aju.github.io/demo/posts/the-art-of-subtle-influence/</link>
@@ -27,7 +18,6 @@ How to Lead When You Don’t Have Control By Aja | Dec, 2023
 In the realm of leadership, the challenges of navigating personalities and influencing change often emerge. What if your colleague&amp;rsquo;s behaviors hinder collaboration, or your team faces someone resistant to feedback? As a leader, it&amp;rsquo;s crucial to master the art of influence, especially when direct control isn&amp;rsquo;t at your disposal.
 ###Understanding the Landscape</description>
     </item>
-    
     
   </channel>
 </rss>
