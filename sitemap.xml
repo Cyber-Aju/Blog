@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Cyber-Aju.github.io/demo/first-blog/</loc>
-    <lastmod>2023-12-03T13:25:07+05:30</lastmod>
+    <loc>https://Cyber-Aju.github.io/demo/tags/binary-tree/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/categories/</loc>
-    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/cpp/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/categories/days_of_cpp/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/dfs/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/learning/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/posts/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/first-blog/</loc>
+    <lastmod>2023-12-03T13:25:07+05:30</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/tags/github-actions/</loc>
     <lastmod>2023-12-03T00:00:00+00:00</lastmod>
@@ -20,16 +47,7 @@
     <loc>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</loc>
     <lastmod>2023-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/posts/</loc>
-    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/tags/</loc>
-    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://Cyber-Aju.github.io/demo/posts/the-art-of-subtle-influence/</loc>
-    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/</loc>
     <lastmod>2023-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/categories/tutorial/</loc>

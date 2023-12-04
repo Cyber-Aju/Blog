@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dfs on The Lone Coder Aju Blog</title>
+    <link>https://Cyber-Aju.github.io/demo/tags/dfs/</link>
+    <description>Recent content in dfs on The Lone Coder Aju Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Day 04/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</guid>
+      <description>Learnings of the Day 04/12 Learnings Today Binary Trees Operations: Implemented various operations like insertion, search, and traversal (BFS, DFS). Recursive Algorithms: Explored recursive approaches for tree-related problems, enhancing understanding. Error Handling: Encountered and resolved type mismatch issues during implementations. Challenges Faced Pointer Understanding: Initially struggled with the distinction between &amp;lsquo;-&amp;gt;&amp;rsquo; and &amp;lsquo;.&amp;rsquo; when dealing with pointers. Overcoming Challenges Type Handling: Learned to handle type mismatches through explicit type conversions. Debugging Approach: Enhanced debugging skills to identify and resolve conversion errors effectively.</description>
+    </item>
+    
+  </channel>
+</rss>
