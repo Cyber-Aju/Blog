@@ -2,8 +2,8 @@
 title= "The Art Of Subtle Influence"
 date= '2023-12-03'
 draft= 'false'
-tags= ["hugo", "github actions", "github pages"]
-categories= ["tutorial"]
+tags= ["art", "thoughts", "github pages"]
+categories= ["Cogita_Read"]
 +++
 
 #The Art of Subtle Influence
