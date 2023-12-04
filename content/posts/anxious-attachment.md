@@ -1,5 +1,5 @@
 +++
-title= "The Art Of Subtle Influence"
+title= "Anxious Attachment"
 date= '2023-12-04'
 draft= 'false'
 tags= ["art", "thoughts", "anxious"]
