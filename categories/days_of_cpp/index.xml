@@ -6,7 +6,16 @@
     <description>Recent content in Days_Of_Cpp on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/days_of_cpp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/days_of_cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Day 05/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</guid>
+      <description>Learnings of the Day 05/12 Learnings 1. Mirror of a Binary Tree Description: Explored the concept of mirroring a binary tree. Code Example: isMirror function checks if a tree is a mirror of itself. 2. Depth of a Binary Tree Description: Calculated the depth (height) of a binary tree. Code Example: Recursive approach to find the maximum depth of a tree. 3. Minimum Depth of a Binary Tree Description: Determined the minimum depth of a binary tree.</description>
+    </item>
+    
     <item>
       <title>Learnings of the Day 04/12</title>
       <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</link>
@@ -14,6 +23,16 @@
       
       <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</guid>
       <description>Learnings of the Day 04/12 Learnings Today Binary Trees Operations: Implemented various operations like insertion, search, and traversal (BFS, DFS). Recursive Algorithms: Explored recursive approaches for tree-related problems, enhancing understanding. Error Handling: Encountered and resolved type mismatch issues during implementations. Challenges Faced Pointer Understanding: Initially struggled with the distinction between &amp;lsquo;-&amp;gt;&amp;rsquo; and &amp;lsquo;.&amp;rsquo; when dealing with pointers. Overcoming Challenges Type Handling: Learned to handle type mismatches through explicit type conversions. Debugging Approach: Enhanced debugging skills to identify and resolve conversion errors effectively.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 03/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</guid>
+      <description>A Journey into Hugo: Overcoming Challenges, Embracing New Learnings Learnings of the Day Today has been an exciting day filled with valuable lessons and new discoveries. The primary focus was on setting up a blog using Hugo, a static site generator, and the challenges encountered along the way.
+1. Hugo Basics Learning the basics of Hugo, such as installing the tool, creating a new site, and understanding the structure of the configuration files, laid a strong foundation for the day&amp;rsquo;s journey.</description>
     </item>
     
   </channel>

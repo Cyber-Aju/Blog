@@ -6,7 +6,37 @@
     <description>Recent content in Posts on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Design</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/api-designer/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/api-designer/</guid>
+      <description>Module 1: Introduction to APIs Learning Objectives: Define APIs and their impact: APIs (Application Programming Interfaces) serve as bridges between different software applications, enabling seamless communication and data exchange. Acknowledge the digital feedback loop: Emphasizes the continuous cycle of gathering insights from digital interactions to refine and improve services. Summarize the business benefits of APIs: Business benefits include new revenue streams, expanded reach and retention, faster partnerships, mobile and omnichannel capabilities, interaction analytics, outsourced innovation, self-service integration, and organizational agility.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 05/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</guid>
+      <description>Learnings of the Day 05/12 Learnings 1. Mirror of a Binary Tree Description: Explored the concept of mirroring a binary tree. Code Example: isMirror function checks if a tree is a mirror of itself. 2. Depth of a Binary Tree Description: Calculated the depth (height) of a binary tree. Code Example: Recursive approach to find the maximum depth of a tree. 3. Minimum Depth of a Binary Tree Description: Determined the minimum depth of a binary tree.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Perception vs Bias and Conservative vs Liberal Perspectives</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/perception-bias-conservative-liberal/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/perception-bias-conservative-liberal/</guid>
+      <description>Perception vs Bias and Conservative vs Liberal Perspectives Perception vs Bias Perception refers to the way we interpret and make sense of the world around us. It involves processing sensory information to understand our environment.
+For Example: Two people witnessing the same event may perceive it differently based on their individual experiences and perspectives.
+Psychologically, understanding individual perceptions helps in addressing cognitive biases and promoting empathy.
+Artists play with perception, using techniques to create illusions or challenge viewers&amp;rsquo; perspectives.</description>
+    </item>
+    
     <item>
       <title>Anxious Attachment</title>
       <link>https://Cyber-Aju.github.io/demo/posts/anxious-attachment/</link>

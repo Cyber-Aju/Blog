@@ -6,20 +6,20 @@
     <description>Recent content in Tags on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>anxious</title>
-      <link>https://Cyber-Aju.github.io/demo/tags/anxious/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <title>api</title>
+      <link>https://Cyber-Aju.github.io/demo/tags/api/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/tags/anxious/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>art</title>
       <link>https://Cyber-Aju.github.io/demo/tags/art/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/tags/art/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>binary tree</title>
       <link>https://Cyber-Aju.github.io/demo/tags/binary-tree/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/tags/binary-tree/</guid>
       <description></description>
@@ -37,16 +37,34 @@
     <item>
       <title>cpp</title>
       <link>https://Cyber-Aju.github.io/demo/tags/cpp/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/tags/cpp/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>design</title>
+      <link>https://Cyber-Aju.github.io/demo/tags/design/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer</title>
+      <link>https://Cyber-Aju.github.io/demo/tags/developer/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/tags/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>dfs</title>
       <link>https://Cyber-Aju.github.io/demo/tags/dfs/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/tags/dfs/</guid>
       <description></description>
@@ -55,18 +73,36 @@
     <item>
       <title>learning</title>
       <link>https://Cyber-Aju.github.io/demo/tags/learning/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>perception</title>
+      <link>https://Cyber-Aju.github.io/demo/tags/perception/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/tags/perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>thoughts</title>
       <link>https://Cyber-Aju.github.io/demo/tags/thoughts/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anxious</title>
+      <link>https://Cyber-Aju.github.io/demo/tags/anxious/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/tags/anxious/</guid>
       <description></description>
     </item>
     
