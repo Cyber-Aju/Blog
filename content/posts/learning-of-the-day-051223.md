@@ -75,13 +75,13 @@ Here's my Code : [Github link](https://github.com/Cyber-Aju/100_Days_of_Cpp/tree
 
 
 # API Design Course Completion 
-[Read more >>](./api-designer.md)
+[Read more >>](https://cyber-aju.github.io/demo/posts/api-designer/)
 
 Today I also completed the API Academy's API Designer Certification course! 🌐 Excited to share insights from modules covering API fundamentals, design principles, architectural considerations, and change management. 🎓 Ready to enhance digital experiences through well-designed APIs..! 
 
 
 # Today Reflections About - Perceptions
-[Read more >>](./perception-bias-conservative-liberal.md)
+[Read more >>](https://cyber-aju.github.io/demo/posts/perception-bias-conservative-liberal/)
 
 The Power of Perspective with Robin Sharma 🚀 Embrace a positive mindset, explore diverse cultures, and engage in continuous learning to broaden your horizons. Change your thoughts, change your world! 🌐 #PerspectiveMatters #RobinSharma #MindsetShift
 
