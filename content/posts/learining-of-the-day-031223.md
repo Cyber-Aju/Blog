@@ -3,7 +3,7 @@ title= "Learnings of the Day 03/12"
 date= '2023-12-03'
 draft= 'false'
 tags= ["hugo", "github actions", "github pages"]
-categories= ["tutorial"]
+categories= ["Days_Of_Cpp"]
 +++
 
 # A Journey into Hugo: Overcoming Challenges, Embracing New Learnings
