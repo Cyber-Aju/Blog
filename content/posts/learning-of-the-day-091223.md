@@ -96,5 +96,3 @@ Today's exploration led to insightful learnings in the realm of operating system
    - Factors influencing scheduling decisions and overall system performance.
 
 Today's journey encompassed foundational OS concepts, process management, and the intricacies of scheduling algorithms, contributing to a holistic understanding of system dynamics.
-
-![alt text](/assets/ajj.jpg "title") 
