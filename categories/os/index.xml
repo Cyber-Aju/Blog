@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OS on The Lone Coder Aju Blog</title>
+    <link>https://Cyber-Aju.github.io/demo/categories/os/</link>
+    <description>Recent content in OS on The Lone Coder Aju Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Day 09/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</guid>
+      <description>Learnings of the Day Today&amp;rsquo;s exploration led to insightful learnings in the realm of operating systems, process lifecycles, creation of processes, termination, and scheduling algorithms.
+Process Lifecycle: Importance: Resource Management:
+Efficient allocation and deallocation of resources prevent leaks and ensure availability for other processes. Multitasking and Concurrency:
+Understanding lifecycles supports concurrent execution and efficient context switching, crucial for multitasking. System Stability and Reliability:
+Lifecycle stages ensure isolation, preventing interference between processes and contributing to system stability.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 08/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-081223/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-081223/</guid>
+      <description>Operating System Concepts Overview Introduction to Operating System (OS): 1. Definition of OS: OS (Operating System): A software that acts as an intermediary between computer hardware and user applications. 2. Why OS? User-Friendly Interface: OS provides a user-friendly interface. Efficient Resource Management: Manages hardware resources efficiently. Security and Virtualization: Ensures security and provides virtualization. 3. Functions of OS: Resource Management: Efficiently allocates and manages hardware resources. Virtualization: Creates a virtual environment for applications.</description>
+    </item>
+    
+  </channel>
+</rss>

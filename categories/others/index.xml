@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>others on The Lone Coder Aju Blog</title>
+    <link>https://Cyber-Aju.github.io/demo/categories/others/</link>
+    <description>Recent content in others on The Lone Coder Aju Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Day 07/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-071223/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-071223/</guid>
+      <description>Music &amp;amp; Me Project: Navigating Challenges and Learning Experiences Today marked the inception of my Music&amp;amp;Me project, an endeavor to connect ChatGPT with Spotify APIs. The vision was to create a platform where users could chat with ChatGPT, have their emotions analyzed, and receive personalized Spotify tracks in their mother tongue and English.
+Challenges and Learnings The journey, however, encountered a roadblock when attempting to set up the project locally. Running npm install in the command line resulted in an endless hang, leaving me puzzled.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 06/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-061223/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-061223/</guid>
+      <description>Summarizing the key learnings Key Learnings: Service-Oriented Architecture (SOA) and Microservices:
+Definition: SOA and microservices are architectural approaches for designing and developing software systems. SOA emphasizes building applications as a set of interconnected services, while microservices focus on creating small, independent services that work together. References: Industry practices, such as those adopted by companies like Netflix, Amazon, and Spotify, showcase the application of SOA and microservices in real-world scenarios. Evolution of Concepts in Technology:</description>
+    </item>
+    
+  </channel>
+</rss>

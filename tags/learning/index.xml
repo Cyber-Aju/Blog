@@ -6,7 +6,49 @@
     <description>Recent content in learning on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Day 09/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</guid>
+      <description>Learnings of the Day Today&amp;rsquo;s exploration led to insightful learnings in the realm of operating systems, process lifecycles, creation of processes, termination, and scheduling algorithms.
+Process Lifecycle: Importance: Resource Management:
+Efficient allocation and deallocation of resources prevent leaks and ensure availability for other processes. Multitasking and Concurrency:
+Understanding lifecycles supports concurrent execution and efficient context switching, crucial for multitasking. System Stability and Reliability:
+Lifecycle stages ensure isolation, preventing interference between processes and contributing to system stability.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 08/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-081223/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-081223/</guid>
+      <description>Operating System Concepts Overview Introduction to Operating System (OS): 1. Definition of OS: OS (Operating System): A software that acts as an intermediary between computer hardware and user applications. 2. Why OS? User-Friendly Interface: OS provides a user-friendly interface. Efficient Resource Management: Manages hardware resources efficiently. Security and Virtualization: Ensures security and provides virtualization. 3. Functions of OS: Resource Management: Efficiently allocates and manages hardware resources. Virtualization: Creates a virtual environment for applications.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 07/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-071223/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-071223/</guid>
+      <description>Music &amp;amp; Me Project: Navigating Challenges and Learning Experiences Today marked the inception of my Music&amp;amp;Me project, an endeavor to connect ChatGPT with Spotify APIs. The vision was to create a platform where users could chat with ChatGPT, have their emotions analyzed, and receive personalized Spotify tracks in their mother tongue and English.
+Challenges and Learnings The journey, however, encountered a roadblock when attempting to set up the project locally. Running npm install in the command line resulted in an endless hang, leaving me puzzled.</description>
+    </item>
+    
+    <item>
+      <title>Learnings of the Day 06/12</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-061223/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-061223/</guid>
+      <description>Summarizing the key learnings Key Learnings: Service-Oriented Architecture (SOA) and Microservices:
+Definition: SOA and microservices are architectural approaches for designing and developing software systems. SOA emphasizes building applications as a set of interconnected services, while microservices focus on creating small, independent services that work together. References: Industry practices, such as those adopted by companies like Netflix, Amazon, and Spotify, showcase the application of SOA and microservices in real-world scenarios. Evolution of Concepts in Technology:</description>
+    </item>
+    
     <item>
       <title>Learnings of the Day 05/12</title>
       <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</link>
