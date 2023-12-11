@@ -133,6 +133,20 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Learnings of the Day 11/12
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Problem solving’s 1. Repeated Substring Pattern leetcode
+Code: bool repeatedSubstringPattern(char s[]){ char b[50]; for(int i=0;i&lt;50;i&#43;&#43;) { b[i]=0; } for(int i=0;s[i];i&#43;&#43;) { int k=s[i]-&#39;a&#39;; b[k]&#43;&#43;; } for(int i=0;i&lt;50;i&#43;&#43;) { if(b[i]!=0) { int a=b[1]; while(b[i]==a) { return true; } } } return false; } Modifications: Then corrected version of code in a previous response.
+bool repeatedSubstringPattern(char s[]) { int len = strlen(s); for (int i = 1; i &lt;= len / 2; i&#43;&#43;) { if (len % i == 0) { int numRepeats = len / i; bool isRepeated = true; for (int j = i; j &lt; len; j&#43;&#43;) { if (s[j] !...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-11 00:00:00 +0000 UTC'>December 11, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Ajmal Akram</footer>
+  <a class="entry-link" aria-label="post link to Learnings of the Day 11/12" href="https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-111223/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Learnings of the Day 10/12
     </h2>
   </header>
