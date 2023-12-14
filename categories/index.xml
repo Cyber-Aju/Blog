@@ -6,11 +6,11 @@
     <description>Recent content in Categories on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Days_Of_Cpp</title>
       <link>https://Cyber-Aju.github.io/demo/categories/days_of_cpp/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/categories/days_of_cpp/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>leetcode</title>
       <link>https://Cyber-Aju.github.io/demo/categories/leetcode/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/categories/leetcode/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>git</title>
       <link>https://Cyber-Aju.github.io/demo/categories/git/</link>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/categories/git/</guid>
       <description></description>
@@ -67,6 +67,15 @@
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://Cyber-Aju.github.io/demo/categories/new_tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git/Github</title>
+      <link>https://Cyber-Aju.github.io/demo/categories/git/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/categories/git/github/</guid>
       <description></description>
     </item>
     

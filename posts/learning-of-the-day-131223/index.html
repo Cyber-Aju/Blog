@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Learnings of the Day 13/12 | The Lone Coder Aju Blog</title>
+<meta name="keywords" content="learning, git, github">
+<meta name="description" content="Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m &quot;msg&quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch.">
+<meta name="author" content="Ajmal Akram">
+<link rel="canonical" href="https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/">
+<link crossorigin="anonymous" href="/demo/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/demo/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://Cyber-Aju.github.io/demo/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://Cyber-Aju.github.io/demo/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://Cyber-Aju.github.io/demo/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://Cyber-Aju.github.io/demo/apple-touch-icon.png">
+<link rel="mask-icon" href="https://Cyber-Aju.github.io/demo/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Learnings of the Day 13/12" />
+<meta property="og:description" content="Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m &quot;msg&quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-13T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Learnings of the Day 13/12"/>
+<meta name="twitter:description" content="Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m &quot;msg&quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://Cyber-Aju.github.io/demo/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Learnings of the Day 13/12",
+      "item": "https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Learnings of the Day 13/12",
+  "name": "Learnings of the Day 13\/12",
+  "description": "Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m \u0026quot;msg\u0026quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch.",
+  "keywords": [
+    "learning", "git", "github"
+  ],
+  "articleBody": "Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m \"msg\": Commits changes with a message. $ git branch alternate-universe: Creates a new branch. $ git merge alternate-universe: Merges branches. Install $ git --version: Checks Git version. $ git config --list: Shows configuration details. $ git config --global username \"set\": Sets the username globally. $ git config --global useremail \"set@mail\": Sets the user email globally. Staging $ git reset .: Removes changes from the staged area. $ git status: Inspects the repository status. .gitignore: Specifies files/folders to be ignored. Commits $ git commit -m \"message\": Commits changes with a message. $ git log: Displays commit history. $ git commit -a -m \"Fix: typo\": Adds and commits without explicit staging. Remote (Github) $ git remote: Shows remote repositories. $ git remote add origin https:\\\\URL.com: Adds a remote repository. $ git remote -v: Shows additional remote information. $ git remote show origin: Displays more details about the remote. Push $ git push origin master -u: Pushes changes to the remote repository. Merge $ git fetch: Fetches changes from the remote repository. $ git merge origin/master: Merges changes from the remote. Pull $ git pull: Fetches and merges changes. Clone $ git clone https:\\\\url demofilename: Clones a repository. Branch $ git branch: Lists branches. $ git branch -M main: Renames the master branch to main. $ git branch awesome: Creates a new branch. $ git branch -d awesome: Deletes a branch. Checkout $ git checkout awesome: Switches to the ‘awesome’ branch. $ git checkout -: Switches back to the previous branch. Conflicts Resolve conflicts when two branches modify the same code lines. Fork Creates a copy of the original code in your repository. Pull Request Contributes changes to the original repository via a pull request. Reset $ git reset ID: Resets the commit history. Revert $ git revert ID: Reverts changes and keeps commit history. Amend $ git commit --amend -m \"new message\": Modifies the last commit. Stash $ git stash: Saves changes for later without committing. $ git stash pop: Applies stashed changes. Rebase Alternative to merge, keeps features in sync without extra merge commits. Squash Combines multiple commits into a single merge commit. Github Actions Automates workflows like CI, CD, npm publish, etc. This summary covers the basic Git and Github commands and concepts, providing a structured overview for a beginner. Each topic is briefly explained, highlighting its importance for developers.\nrevision purpose for me:\nUser Today i learned Git/Github. I will abstract the command \u0026 topic what i learned, u might be breifly explain its meanings y its used in situation like that and other important aspects need as developer. give in structured format of .md. Basics: git(Keep track of changes) : created by Linus Torvalds in 2005. $git init : repository(tracks changes in codebase), commits(a snapshot of ur files) $git add . $git commit - m \"msg\" : head(most recent ) $git branch alternate-universe : branch(an alternate history for code) $git merge alternate-universe : merge (combines branches into single codebase) install: git --version git config --list : shows (username ,email ,etc) git config --global username \"set\" git config --global useremail \"set@mail\" git init staging: git add . : added to staged area(U-\u003eA) git reset . : back to that(U\u003c-A) git add README.md git status status: git status : for inspecting our repo(green color-new file, U-untracked,A-added to staged) .git igonre : (to untract specific file/folder) Commits: git commit -m \"message\" : (changes made are color different) git log : (commit references- author,id,date,etc..)(if changes made-shows in yellow color (M- modified)) git commit -a -m \"Fix:typo\" : this command add\u0026commit without command of add. remote (Github): git remote (remote repo we linked to local project) git remote add origin https:\\\\URL.com git remote -v git remote show origin :additional info push: git push origin master -u : origin is the name of repo, master is branch, -u is set to origin to upstream remote. merge: //still we have now 2branches in play github(remote-master) \u0026\u0026 Vscode(local-master) git fetch : to merge which is modified in github(download latest changes) git branch git merge origin/master pull: git pull : fetch + merge (we cant use origin master because we used -u) caution:- must have clear working directory clone: git clone https:\\\\url demofilename git log branch: git branch git branch -M main (rename master to main) git branch awesome git branch id awesome (deletes) checkout: git checkout awesome : switvhed to 'awesome ' branch git commit -am \"added content\" git checkout - (back to previous branch) conflicts: if 2 branches modify the same code lines git merge awesome (conflict aborts) git commit -am \"msg\" (master merge) git merge awesome (merge failed) git diff (differece between 2 commits) git merge --abort (back to original state) //we can als commit both to resolve git commit fork: Original code stored in our repo with upstream repo then send pull request to merge code in original pull request: way to contribute git branch git checkout (switch) //changes git add . git commit git push origin (upload local changes to your remote repo) //compare \u0026 pull req in github //follow contri=buiton guideleinrs git remote add upstream LINK git fetch Upstream git rebase upstream/master reset: 3 different stykes of git is:1.working directory, 2. staging area, 3.commit history git log (shows id-copy it) git reset \"ID\" // dont reset code on github after pushed. revert: git log git revert \"Id\" difference btwn these 2 are it still have commit history. amend git commit -am \"bado\" : typo in meesge,modify last commit (missing stage file) then git commit --amend -m \"bad\" or git add. git commit --amend --no-edit Stash: save ur work for later without commiting it. git stash : array holds on changes apply it dates git stash pop : put them backon code git stash save post1 git stash save post2 git stash list : shows list of stashes git stash apply 1 : post1 shows. rebase: rebase vs merge //alternative to merge keeps features in sync without extra merge commits squash: git commit -am \"msg \" : commits all into single merge git rebase master --interactive : --interactive pulls up document in editor , replace pick-\u003esquash-\u003e combine to single msg. git log github actions: //automating workflows 1.CI 2.CD 3.Artifacts 4.npm publish 5.scheduled jobs Thanks to fireship.\u003c3 ",
+  "wordCount" : "1095",
+  "inLanguage": "en",
+  "datePublished": "2023-12-13T00:00:00Z",
+  "dateModified": "2023-12-13T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Ajmal Akram"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Lone Coder Aju Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Cyber-Aju.github.io/demo/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://Cyber-Aju.github.io/demo/" accesskey="h" title="The Lone Coder Aju Blog (Alt + H)">The Lone Coder Aju Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://Cyber-Aju.github.io/demo/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://Cyber-Aju.github.io/demo/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://Cyber-Aju.github.io/demo/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Learnings of the Day 13/12
+    </h1>
+    <div class="post-meta"><span title='2023-12-13 00:00:00 +0000 UTC'>December 13, 2023</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Ajmal Akram
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="gitgithub-learning-summary">Git/Github Learning Summary<a hidden class="anchor" aria-hidden="true" href="#gitgithub-learning-summary">#</a></h1>
+<h2 id="basics">Basics<a hidden class="anchor" aria-hidden="true" href="#basics">#</a></h2>
+<ul>
+<li><strong>Git:</strong> Version control system created by Linus Torvalds in 2005.</li>
+<li><strong>Repository:</strong> Tracks changes in a codebase and consists of commits (snapshots of files).</li>
+<li><strong>Branch:</strong> An alternate history for code.</li>
+<li><strong>Merge:</strong> Combines branches into a single codebase.</li>
+</ul>
+<h3 id="commands">Commands<a hidden class="anchor" aria-hidden="true" href="#commands">#</a></h3>
+<ul>
+<li><code>$ git init</code>: Initializes a repository.</li>
+<li><code>$ git add .</code>: Adds changes to the staged area.</li>
+<li><code>$ git commit -m &quot;msg&quot;</code>: Commits changes with a message.</li>
+<li><code>$ git branch alternate-universe</code>: Creates a new branch.</li>
+<li><code>$ git merge alternate-universe</code>: Merges branches.</li>
+</ul>
+<h2 id="install">Install<a hidden class="anchor" aria-hidden="true" href="#install">#</a></h2>
+<ul>
+<li><code>$ git --version</code>: Checks Git version.</li>
+<li><code>$ git config --list</code>: Shows configuration details.</li>
+<li><code>$ git config --global username &quot;set&quot;</code>: Sets the username globally.</li>
+<li><code>$ git config --global useremail &quot;set@mail&quot;</code>: Sets the user email globally.</li>
+</ul>
+<h2 id="staging">Staging<a hidden class="anchor" aria-hidden="true" href="#staging">#</a></h2>
+<ul>
+<li><code>$ git reset .</code>: Removes changes from the staged area.</li>
+<li><code>$ git status</code>: Inspects the repository status.</li>
+<li><code>.gitignore</code>: Specifies files/folders to be ignored.</li>
+</ul>
+<h2 id="commits">Commits<a hidden class="anchor" aria-hidden="true" href="#commits">#</a></h2>
+<ul>
+<li><code>$ git commit -m &quot;message&quot;</code>: Commits changes with a message.</li>
+<li><code>$ git log</code>: Displays commit history.</li>
+<li><code>$ git commit -a -m &quot;Fix: typo&quot;</code>: Adds and commits without explicit staging.</li>
+</ul>
+<h2 id="remote-github">Remote (Github)<a hidden class="anchor" aria-hidden="true" href="#remote-github">#</a></h2>
+<ul>
+<li><code>$ git remote</code>: Shows remote repositories.</li>
+<li><code>$ git remote add origin https:\\URL.com</code>: Adds a remote repository.</li>
+<li><code>$ git remote -v</code>: Shows additional remote information.</li>
+<li><code>$ git remote show origin</code>: Displays more details about the remote.</li>
+</ul>
+<h2 id="push">Push<a hidden class="anchor" aria-hidden="true" href="#push">#</a></h2>
+<ul>
+<li><code>$ git push origin master -u</code>: Pushes changes to the remote repository.</li>
+</ul>
+<h2 id="merge">Merge<a hidden class="anchor" aria-hidden="true" href="#merge">#</a></h2>
+<ul>
+<li><code>$ git fetch</code>: Fetches changes from the remote repository.</li>
+<li><code>$ git merge origin/master</code>: Merges changes from the remote.</li>
+</ul>
+<h2 id="pull">Pull<a hidden class="anchor" aria-hidden="true" href="#pull">#</a></h2>
+<ul>
+<li><code>$ git pull</code>: Fetches and merges changes.</li>
+</ul>
+<h2 id="clone">Clone<a hidden class="anchor" aria-hidden="true" href="#clone">#</a></h2>
+<ul>
+<li><code>$ git clone https:\\url demofilename</code>: Clones a repository.</li>
+</ul>
+<h2 id="branch">Branch<a hidden class="anchor" aria-hidden="true" href="#branch">#</a></h2>
+<ul>
+<li><code>$ git branch</code>: Lists branches.</li>
+<li><code>$ git branch -M main</code>: Renames the master branch to main.</li>
+<li><code>$ git branch awesome</code>: Creates a new branch.</li>
+<li><code>$ git branch -d awesome</code>: Deletes a branch.</li>
+</ul>
+<h2 id="checkout">Checkout<a hidden class="anchor" aria-hidden="true" href="#checkout">#</a></h2>
+<ul>
+<li><code>$ git checkout awesome</code>: Switches to the &lsquo;awesome&rsquo; branch.</li>
+<li><code>$ git checkout -</code>: Switches back to the previous branch.</li>
+</ul>
+<h2 id="conflicts">Conflicts<a hidden class="anchor" aria-hidden="true" href="#conflicts">#</a></h2>
+<ul>
+<li>Resolve conflicts when two branches modify the same code lines.</li>
+</ul>
+<h2 id="fork">Fork<a hidden class="anchor" aria-hidden="true" href="#fork">#</a></h2>
+<ul>
+<li>Creates a copy of the original code in your repository.</li>
+</ul>
+<h2 id="pull-request">Pull Request<a hidden class="anchor" aria-hidden="true" href="#pull-request">#</a></h2>
+<ul>
+<li>Contributes changes to the original repository via a pull request.</li>
+</ul>
+<h2 id="reset">Reset<a hidden class="anchor" aria-hidden="true" href="#reset">#</a></h2>
+<ul>
+<li><code>$ git reset ID</code>: Resets the commit history.</li>
+</ul>
+<h2 id="revert">Revert<a hidden class="anchor" aria-hidden="true" href="#revert">#</a></h2>
+<ul>
+<li><code>$ git revert ID</code>: Reverts changes and keeps commit history.</li>
+</ul>
+<h2 id="amend">Amend<a hidden class="anchor" aria-hidden="true" href="#amend">#</a></h2>
+<ul>
+<li><code>$ git commit --amend -m &quot;new message&quot;</code>: Modifies the last commit.</li>
+</ul>
+<h2 id="stash">Stash<a hidden class="anchor" aria-hidden="true" href="#stash">#</a></h2>
+<ul>
+<li><code>$ git stash</code>: Saves changes for later without committing.</li>
+<li><code>$ git stash pop</code>: Applies stashed changes.</li>
+</ul>
+<h2 id="rebase">Rebase<a hidden class="anchor" aria-hidden="true" href="#rebase">#</a></h2>
+<ul>
+<li>Alternative to merge, keeps features in sync without extra merge commits.</li>
+</ul>
+<h2 id="squash">Squash<a hidden class="anchor" aria-hidden="true" href="#squash">#</a></h2>
+<ul>
+<li>Combines multiple commits into a single merge commit.</li>
+</ul>
+<h2 id="github-actions">Github Actions<a hidden class="anchor" aria-hidden="true" href="#github-actions">#</a></h2>
+<ul>
+<li>Automates workflows like CI, CD, npm publish, etc.</li>
+</ul>
+<p>This summary covers the basic Git and Github commands and concepts, providing a structured overview for a beginner. Each topic is briefly explained, highlighting its importance for developers.</p>
+<p>revision purpose for me:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>User
+</span></span><span style="display:flex;"><span>Today i learned Git/Github. I will abstract the command <span style="color:#960050;background-color:#1e0010">&amp;</span> topic what i learned, u might be  breifly explain its meanings y its used in situation like that and other important aspects need as developer. give in structured format of .md.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Basics:
+</span></span><span style="display:flex;"><span>git(Keep track of changes) : created by Linus Torvalds in 2005.
+</span></span><span style="display:flex;"><span>$git init : repository(tracks changes in codebase), commits(a snapshot of ur files)
+</span></span><span style="display:flex;"><span>$git add .
+</span></span><span style="display:flex;"><span>$git commit - m &#34;msg&#34; : head(most recent )
+</span></span><span style="display:flex;"><span>$git branch alternate-universe : branch(an alternate history for code)
+</span></span><span style="display:flex;"><span>$git merge alternate-universe : merge (combines branches into single codebase)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>install:
+</span></span><span style="display:flex;"><span>git --version
+</span></span><span style="display:flex;"><span>git config --list : shows (username ,email ,etc)
+</span></span><span style="display:flex;"><span>git config --global username &#34;set&#34;
+</span></span><span style="display:flex;"><span>git config --global useremail &#34;set@mail&#34;
+</span></span><span style="display:flex;"><span>git init 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>staging:
+</span></span><span style="display:flex;"><span>git add . : added to staged area(U-&gt;A)
+</span></span><span style="display:flex;"><span>git reset . : back to that(U&lt;<span style="color:#f92672">-A</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">add</span> <span style="color:#a6e22e">README</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">md</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">status</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">status:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">status</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">for</span> <span style="color:#a6e22e">inspecting</span> <span style="color:#a6e22e">our</span> <span style="color:#a6e22e">repo</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">green</span> <span style="color:#a6e22e">color-new</span> <span style="color:#a6e22e">file</span><span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">U-untracked</span><span style="color:#960050;background-color:#1e0010">,</span><span style="color:#a6e22e">A-added</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">staged</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">igonre</span> <span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">to</span> <span style="color:#a6e22e">untract</span> <span style="color:#a6e22e">specific</span> <span style="color:#a6e22e">file</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">folder</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Commits:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">-m</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">message</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">changes</span> <span style="color:#a6e22e">made</span> <span style="color:#a6e22e">are</span> <span style="color:#a6e22e">color</span> <span style="color:#a6e22e">different</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">log</span> <span style="color:#a6e22e">:</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">references-</span> <span style="color:#a6e22e">author</span><span style="color:#960050;background-color:#1e0010">,</span><span style="color:#a6e22e">id</span><span style="color:#960050;background-color:#1e0010">,</span><span style="color:#a6e22e">date</span><span style="color:#960050;background-color:#1e0010">,</span><span style="color:#a6e22e">etc</span><span style="color:#960050;background-color:#1e0010">..)(</span><span style="color:#a6e22e">if</span> <span style="color:#a6e22e">changes</span> <span style="color:#a6e22e">made-shows</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">yellow</span> <span style="color:#a6e22e">color</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">M-</span> <span style="color:#a6e22e">modified</span><span style="color:#960050;background-color:#1e0010">))</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">-a</span> <span style="color:#a6e22e">-m</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Fix:typo</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">this</span> <span style="color:#a6e22e">command</span> <span style="color:#a6e22e">add</span><span style="color:#960050;background-color:#1e0010">&amp;</span><span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">without</span> <span style="color:#a6e22e">command</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">add</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">remote</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">Github</span><span style="color:#960050;background-color:#1e0010">)</span><span style="color:#a6e22e">:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">remote</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">remote</span> <span style="color:#a6e22e">repo</span> <span style="color:#a6e22e">we</span> <span style="color:#a6e22e">linked</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">local</span> <span style="color:#a6e22e">project</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">remote</span> <span style="color:#a6e22e">add</span> <span style="color:#a6e22e">origin</span> <span style="color:#a6e22e">https:</span>\\<span style="color:#a6e22e">URL</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">com</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">remote</span> <span style="color:#a6e22e">-v</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">remote</span> <span style="color:#a6e22e">show</span> <span style="color:#a6e22e">origin</span> <span style="color:#a6e22e">:additional</span> <span style="color:#a6e22e">info</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">push:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#a6e22e">origin</span> <span style="color:#a6e22e">master</span> <span style="color:#a6e22e">-u</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">origin</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">name</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">repo</span><span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">master</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">branch</span><span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">-u</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">set</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">origin</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">upstream</span> <span style="color:#a6e22e">remote</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">merge:</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">still</span> <span style="color:#a6e22e">we</span> <span style="color:#a6e22e">have</span> <span style="color:#a6e22e">now</span> <span style="color:#a6e22e">2branches</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">play</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">github</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">remote-master</span><span style="color:#960050;background-color:#1e0010">)</span> <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> <span style="color:#a6e22e">Vscode</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">local-master</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">fetch</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">which</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">modified</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">github</span><span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">download</span> <span style="color:#a6e22e">latest</span> <span style="color:#a6e22e">changes</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span> 
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">origin</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">master</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">pull:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">pull</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">fetch</span> <span style="color:#960050;background-color:#1e0010">+</span> <span style="color:#a6e22e">merge</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">we</span> <span style="color:#a6e22e">cant</span> <span style="color:#a6e22e">use</span> <span style="color:#a6e22e">origin</span> <span style="color:#a6e22e">master</span> <span style="color:#a6e22e">because</span> <span style="color:#a6e22e">we</span> <span style="color:#a6e22e">used</span> <span style="color:#a6e22e">-u</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">caution:-</span> <span style="color:#a6e22e">must</span> <span style="color:#a6e22e">have</span> <span style="color:#a6e22e">clear</span> <span style="color:#a6e22e">working</span> <span style="color:#a6e22e">directory</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">clone:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">clone</span> <span style="color:#a6e22e">https:</span>\\<span style="color:#a6e22e">url</span> <span style="color:#a6e22e">demofilename</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">log</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">branch:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span> <span style="color:#a6e22e">-M</span> <span style="color:#a6e22e">main</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">rename</span> <span style="color:#a6e22e">master</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">main</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span> <span style="color:#a6e22e">awesome</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span> <span style="color:#a6e22e">id</span> <span style="color:#a6e22e">awesome</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">deletes</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">checkout:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">checkout</span> <span style="color:#a6e22e">awesome</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">switvhed</span> <span style="color:#a6e22e">to</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">awesome</span> <span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#a6e22e">branch</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">-am</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">added</span> <span style="color:#a6e22e">content</span><span style="color:#960050;background-color:#1e0010">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">checkout</span> <span style="color:#a6e22e">-</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">back</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">previous</span> <span style="color:#a6e22e">branch</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">conflicts:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">if</span> <span style="color:#a6e22e">2</span> <span style="color:#a6e22e">branches</span> <span style="color:#a6e22e">modify</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">same</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">lines</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">awesome</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">conflict</span> <span style="color:#a6e22e">aborts</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">-am</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">msg</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">master</span> <span style="color:#a6e22e">merge</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">awesome</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">failed</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">diff</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">differece</span> <span style="color:#a6e22e">between</span> <span style="color:#a6e22e">2</span> <span style="color:#a6e22e">commits</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">--abort</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">back</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">original</span> <span style="color:#a6e22e">state</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">we</span> <span style="color:#a6e22e">can</span> <span style="color:#a6e22e">als</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">both</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">resolve</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">fork:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Original</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">stored</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">our</span> <span style="color:#a6e22e">repo</span> <span style="color:#a6e22e">with</span> <span style="color:#a6e22e">upstream</span> <span style="color:#a6e22e">repo</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">then</span> <span style="color:#a6e22e">send</span> <span style="color:#a6e22e">pull</span> <span style="color:#a6e22e">request</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">original</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">pull</span> <span style="color:#a6e22e">request:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">way</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">contribute</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">checkout</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">switch</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">changes</span> 
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">add</span> <span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> 
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#a6e22e">origin</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">upload</span> <span style="color:#a6e22e">local</span> <span style="color:#a6e22e">changes</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">your</span> <span style="color:#a6e22e">remote</span> <span style="color:#a6e22e">repo</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">compare</span> <span style="color:#960050;background-color:#1e0010">&amp;</span> <span style="color:#a6e22e">pull</span> <span style="color:#a6e22e">req</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">github</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">follow</span> <span style="color:#a6e22e">contri</span><span style="color:#f92672">=</span><span style="color:#e6db74">buiton</span> <span style="color:#a6e22e">guideleinrs</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">remote</span> <span style="color:#a6e22e">add</span> <span style="color:#a6e22e">upstream</span> <span style="color:#a6e22e">LINK</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">fetch</span> <span style="color:#a6e22e">Upstream</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">rebase</span> <span style="color:#a6e22e">upstream</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">master</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">reset:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">3</span> <span style="color:#a6e22e">different</span> <span style="color:#a6e22e">stykes</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">is:1</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">working</span> <span style="color:#a6e22e">directory</span><span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">2</span><span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#a6e22e">staging</span> <span style="color:#a6e22e">area</span><span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">3</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">history</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">log</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">shows</span> <span style="color:#a6e22e">id-copy</span> <span style="color:#a6e22e">it</span><span style="color:#960050;background-color:#1e0010">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">reset</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">ID</span><span style="color:#960050;background-color:#1e0010">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#a6e22e">dont</span> <span style="color:#a6e22e">reset</span> <span style="color:#a6e22e">code</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">github</span> <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">pushed</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">revert:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">log</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">revert</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Id</span><span style="color:#960050;background-color:#1e0010">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">difference</span> <span style="color:#a6e22e">btwn</span> <span style="color:#a6e22e">these</span> <span style="color:#a6e22e">2</span> <span style="color:#a6e22e">are</span> <span style="color:#a6e22e">it</span> <span style="color:#a6e22e">still</span> <span style="color:#a6e22e">have</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">history</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">amend</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">-am</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">bado</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">typo</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">meesge</span><span style="color:#960050;background-color:#1e0010">,</span><span style="color:#a6e22e">modify</span> <span style="color:#a6e22e">last</span> <span style="color:#a6e22e">commit</span> <span style="color:#960050;background-color:#1e0010">(</span><span style="color:#a6e22e">missing</span> <span style="color:#a6e22e">stage</span> <span style="color:#a6e22e">file</span><span style="color:#960050;background-color:#1e0010">)</span> <span style="color:#a6e22e">then</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">--amend</span> <span style="color:#a6e22e">-m</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">bad</span><span style="color:#960050;background-color:#1e0010">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">or</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">add</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">--amend</span> <span style="color:#a6e22e">--no-edit</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Stash:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">save</span> <span style="color:#a6e22e">ur</span> <span style="color:#a6e22e">work</span> <span style="color:#a6e22e">for</span> <span style="color:#a6e22e">later</span> <span style="color:#a6e22e">without</span> <span style="color:#a6e22e">commiting</span> <span style="color:#a6e22e">it</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">stash</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">array</span> <span style="color:#a6e22e">holds</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">changes</span> <span style="color:#a6e22e">apply</span> <span style="color:#a6e22e">it</span> <span style="color:#a6e22e">dates</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">stash</span> <span style="color:#a6e22e">pop</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">put</span> <span style="color:#a6e22e">them</span> <span style="color:#a6e22e">backon</span> <span style="color:#a6e22e">code</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">stash</span> <span style="color:#a6e22e">save</span> <span style="color:#a6e22e">post1</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">stash</span> <span style="color:#a6e22e">save</span> <span style="color:#a6e22e">post2</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">stash</span> <span style="color:#a6e22e">list</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">shows</span> <span style="color:#a6e22e">list</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">stashes</span> 
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">stash</span> <span style="color:#a6e22e">apply</span> <span style="color:#a6e22e">1</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">post1</span> <span style="color:#a6e22e">shows</span><span style="color:#960050;background-color:#1e0010">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">rebase:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">rebase</span> <span style="color:#a6e22e">vs</span> <span style="color:#a6e22e">merge</span> 
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">alternative</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">merge</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">keeps</span> <span style="color:#a6e22e">features</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">sync</span> <span style="color:#a6e22e">without</span> <span style="color:#a6e22e">extra</span> <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">commits</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">squash:</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#a6e22e">-am</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">msg</span> <span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">commits</span> <span style="color:#a6e22e">all</span> <span style="color:#a6e22e">into</span> <span style="color:#a6e22e">single</span> <span style="color:#a6e22e">merge</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">rebase</span> <span style="color:#a6e22e">master</span> <span style="color:#a6e22e">--interactive</span> <span style="color:#a6e22e">:</span> <span style="color:#a6e22e">--interactive</span> <span style="color:#a6e22e">pulls</span> <span style="color:#a6e22e">up</span> <span style="color:#a6e22e">document</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">editor</span> <span style="color:#960050;background-color:#1e0010">,</span> <span style="color:#a6e22e">replace</span> <span style="color:#a6e22e">pick-</span>&gt;squash-&gt; combine to single msg.
+</span></span><span style="display:flex;"><span>git log
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>github actions:
+</span></span><span style="display:flex;"><span>//automating workflows
+</span></span><span style="display:flex;"><span>1.CI
+</span></span><span style="display:flex;"><span>2.CD
+</span></span><span style="display:flex;"><span>3.Artifacts
+</span></span><span style="display:flex;"><span>4.npm publish
+</span></span><span style="display:flex;"><span>5.scheduled jobs
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Thanks to fireship.&lt;<span style="color:#f92672">3</span>
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://Cyber-Aju.github.io/demo/tags/learning/">learning</a></li>
+      <li><a href="https://Cyber-Aju.github.io/demo/tags/git/">git</a></li>
+      <li><a href="https://Cyber-Aju.github.io/demo/tags/github/">github</a></li>
+    </ul>
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on x"
+        href="https://x.com/intent/tweet/?text=Learnings%20of%20the%20Day%2013%2f12&amp;url=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f&amp;hashtags=learning%2cgit%2cgithub">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z"/>
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f&amp;title=Learnings%20of%20the%20Day%2013%2f12&amp;summary=Learnings%20of%20the%20Day%2013%2f12&amp;source=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f&title=Learnings%20of%20the%20Day%2013%2f12">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on whatsapp"
+        href="https://api.whatsapp.com/send?text=Learnings%20of%20the%20Day%2013%2f12%20-%20https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on telegram"
+        href="https://telegram.me/share/url?text=Learnings%20of%20the%20Day%2013%2f12&amp;url=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Learnings of the Day 13/12 on ycombinator"
+        href="https://news.ycombinator.com/submitlink?t=Learnings%20of%20the%20Day%2013%2f12&u=https%3a%2f%2fCyber-Aju.github.io%2fdemo%2fposts%2flearning-of-the-day-131223%2f">
+        <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+            <path
+                d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://Cyber-Aju.github.io/demo/">The Lone Coder Aju Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

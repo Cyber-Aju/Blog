@@ -133,6 +133,35 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Learnings of the Day 14/12
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>##JavaScript:
+Day 3: Solving in 3 Different Ways Leetcode
+From the question, we need to create three functions: increment(), decrement(), and reset(). Let’s explore three different ways to implement these functions.
+1. Using Traditional Function var createCounter = function(init) { let presentCount = init; function increment() { return &#43;&#43;presentCount; } function decrement() { return --presentCount; } function reset() { return (presentCount = init); } return { increment, decrement, reset }; }; Time and Space Complexity: O(1)...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-14 00:00:00 +0000 UTC'>December 14, 2023</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Ajmal Akram</footer>
+  <a class="entry-link" aria-label="post link to Learnings of the Day 14/12" href="https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-141223/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Learnings of the Day 12/12
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. Problem: Can Make Arithmetic Progression From Sequence Leetcode
+Original Code: class Solution { public: bool canMakeArithmeticProgression(vector&lt;int&gt;&amp; arr) { for(int i=0;i&lt;arr.size();i&#43;&#43;) { int z=arr[0]-arr[1]; if(z!=(arr[i]-arr[i&#43;1])) { return false; } } return true; } }; Modifications: class Solution { public: bool canMakeArithmeticProgression(vector&lt;int&gt;&amp; arr) { sort(arr.begin(),arr.end()); int z=arr[1]-arr[0]; for(int i=0;i&lt;(arr.size()-1);i&#43;&#43;) { if(z!=(arr[i&#43;1]-arr[i])) { return false; } } return true; } }; caused of ‘outbound errors’.
+Complexity: Time Complexity: O(n) Space Complexity: O(1) Challenges Faced: Ensuring correct handling of edge cases and optimizing the code for efficiency and Outbounds Error Learnings: Importance of not always relying on sorting and exploring alternative approaches....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-12 00:00:00 +0000 UTC'>December 12, 2023</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Ajmal Akram</footer>
+  <a class="entry-link" aria-label="post link to Learnings of the Day 12/12" href="https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-121223/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Learnings of the Day 11/12
     </h2>
   </header>

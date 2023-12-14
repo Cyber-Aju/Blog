@@ -3,45 +3,60 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://Cyber-Aju.github.io/demo/categories/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/tags/cpp/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/categories/days_of_cpp/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/js/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/tags/learning/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-141223/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/categories/leetcode/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/leetcode/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/posts/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/problem-solving/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/git/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/categories/git/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/tags/github/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-121223/</loc>
+    <lastmod>2023-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-111223/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/categories/leetcode/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/tags/leetcode/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/posts/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/tags/problem-solving/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/tags/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://Cyber-Aju.github.io/demo/tags/deploy/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/tags/git/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/demo/categories/git/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-101223/</loc>
@@ -152,5 +167,7 @@
     <loc>https://Cyber-Aju.github.io/demo/posts/snapies/</loc>
   </url><url>
     <loc>https://Cyber-Aju.github.io/demo/archives/</loc>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/demo/categories/git/github/</loc>
   </url>
 </urlset>
