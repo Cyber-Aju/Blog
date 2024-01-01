@@ -3,7 +3,7 @@ title= "Learnings of the DEC"
 date= '2023-12-31'
 draft= 'false'
 tags= ["learning", "CNS"]
-categories= [Others]
+categories= ["Others"]
 +++
 
 ### UNIT I: INTRODUCTION TO NETWORK SECURITY
