@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Loner Bytes</title>
-    <link>https://Cyber-Aju.github.io/Blog/</link>
-    <description>Recent content on Loner Bytes</description>
+    <title>The Lone Coder Aju Blog</title>
+    <link>https://Cyber-Aju.github.io/demo/</link>
+    <description>Recent content on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings of the Day 01/01</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-010124/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-010124/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-010124/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-010124/</guid>
       <description>SQL SQL (Structured Query Language) is a language used for managing and manipulating relational databases. Here are some fundamental SQL commands:
 1. CREATE DATABASE: Usage: CREATE DATABASE database_name; Description: Creates a new database with the specified name. 2. USE: Usage: USE database_name; Description: Switches to the specified database, making it the active database for subsequent operations. 3. CREATE TABLE: Usage: CREATE TABLE table_name ( column1 datatype, column2 datatype, ... ); Description: Creates a new table with the specified columns and data types.</description>
     </item>
     
     <item>
       <title>Learnings of the DEC</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-311223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-311223/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-311223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-311223/</guid>
       <description>UNIT I: INTRODUCTION TO NETWORK SECURITY Security Trends Abstract: Security trends in cybersecurity evolve to counter emerging threats and vulnerabilities.
 Advantage: Provides insights into current and future security challenges. Disadvantage: Rapid changes require constant adaptation. Legal, Ethical, and Professional Aspects of Security
 Abstract: Understanding legal and ethical considerations is vital for responsible cybersecurity practices. Advantage: Guides ethical decision-making in security. Disadvantage: Varied interpretations of laws and ethics globally. Security Policies and Models</description>
@@ -30,19 +30,19 @@ Abstract: Understanding legal and ethical considerations is vital for responsibl
     
     <item>
       <title>Philosophical Roots of Psychology&#39;s Evolution</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/philosophical-roots-psychology-evolution/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/philosophical-roots-psychology-evolution/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/philosophical-roots-psychology-evolution/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/philosophical-roots-psychology-evolution/</guid>
       <description>&amp;ldquo;Foundations of the Mind: Tracing the Philosophical Roots of Psychology&amp;rsquo;s Evolution&amp;rdquo; 1. The Four Temperaments of Personality Galen - Humorism Melancholic: sad, fearful, depressed, poetic, artistic. Phlegmatic: slow, quiet, shy, rational, consistent. Choleric: fiery, energetic, passionate. Sanguine: warm-hearted, cheerful, optimistic, confident. Approach: Humorism; imbalances in humors determine personality and inclinations toward illnesses. 2. There is a Reasoning Soul in this Machine Descartes - Mind/Body Dualism Approach: Mind/body dualism; pineal gland as the seat of thought; mind and body connected.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 14/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-141223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-141223/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-141223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-141223/</guid>
       <description>##JavaScript:
 Day 3: Solving in 3 Different Ways Leetcode
 From the question, we need to create three functions: increment(), decrement(), and reset(). Let&amp;rsquo;s explore three different ways to implement these functions.
@@ -51,19 +51,19 @@ From the question, we need to create three functions: increment(), decrement(), 
     
     <item>
       <title>Learnings of the Day 13/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</guid>
       <description>Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m &amp;quot;msg&amp;quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 12/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-121223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-121223/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-121223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-121223/</guid>
       <description>1. Problem: Can Make Arithmetic Progression From Sequence Leetcode
 Original Code: class Solution { public: bool canMakeArithmeticProgression(vector&amp;lt;int&amp;gt;&amp;amp; arr) { for(int i=0;i&amp;lt;arr.size();i++) { int z=arr[0]-arr[1]; if(z!=(arr[i]-arr[i+1])) { return false; } } return true; } }; Modifications: class Solution { public: bool canMakeArithmeticProgression(vector&amp;lt;int&amp;gt;&amp;amp; arr) { sort(arr.begin(),arr.end()); int z=arr[1]-arr[0]; for(int i=0;i&amp;lt;(arr.size()-1);i++) { if(z!=(arr[i+1]-arr[i])) { return false; } } return true; } }; caused of &amp;lsquo;outbound errors&amp;rsquo;.
 Complexity: Time Complexity: O(n) Space Complexity: O(1) Challenges Faced: Ensuring correct handling of edge cases and optimizing the code for efficiency and Outbounds Error Learnings: Importance of not always relying on sorting and exploring alternative approaches.</description>
@@ -71,10 +71,10 @@ Complexity: Time Complexity: O(n) Space Complexity: O(1) Challenges Faced: Ensur
     
     <item>
       <title>Learnings of the Day 11/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-111223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-111223/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-111223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-111223/</guid>
       <description>Problem solving&amp;rsquo;s 1. Repeated Substring Pattern leetcode
 Code: bool repeatedSubstringPattern(char s[]){ char b[50]; for(int i=0;i&amp;lt;50;i++) { b[i]=0; } for(int i=0;s[i];i++) { int k=s[i]-&amp;#39;a&amp;#39;; b[k]++; } for(int i=0;i&amp;lt;50;i++) { if(b[i]!=0) { int a=b[1]; while(b[i]==a) { return true; } } } return false; } Modifications: Then corrected version of code in a previous response.
 bool repeatedSubstringPattern(char s[]) { int len = strlen(s); for (int i = 1; i &amp;lt;= len / 2; i++) { if (len % i == 0) { int numRepeats = len / i; bool isRepeated = true; for (int j = i; j &amp;lt; len; j++) { if (s[j] !</description>
@@ -82,19 +82,19 @@ bool repeatedSubstringPattern(char s[]) { int len = strlen(s); for (int i = 1; i
     
     <item>
       <title>Learnings of the Day 10/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-101223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-101223/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-101223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-101223/</guid>
       <description>Problems Faced: 1. Git Initialization and Pushing: Issue: Facing errors while initializing Git and pushing to a new GitHub repository. Solution: Resolved by reinitializing Git, adding and committing files, and pushing to the repository. 2. GitHub Actions Workflow: Issue: Difficulty in setting up a GitHub Actions workflow for deployment. Solution: Provided guidance on creating a workflow file (deploy.yml) for deploying HTML, CSS, and JS files. 3. GitHub Actions Deprecation Warning: Issue: Received a warning about the deprecation of Node.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 09/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-091223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-091223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</guid>
       <description>Learnings of the Day Today&amp;rsquo;s exploration led to insightful learnings in the realm of operating systems, process lifecycles, creation of processes, termination, and scheduling algorithms.
 Process Lifecycle: Importance: Resource Management:
 Efficient allocation and deallocation of resources prevent leaks and ensure availability for other processes. Multitasking and Concurrency:
@@ -104,57 +104,57 @@ Lifecycle stages ensure isolation, preventing interference between processes and
     
     <item>
       <title>Learnings of the Day 08/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-081223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-081223/</link>
       <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-081223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-081223/</guid>
       <description>Operating System Concepts Overview Introduction to Operating System (OS): 1. Definition of OS: OS (Operating System): A software that acts as an intermediary between computer hardware and user applications. 2. Why OS? User-Friendly Interface: OS provides a user-friendly interface. Efficient Resource Management: Manages hardware resources efficiently. Security and Virtualization: Ensures security and provides virtualization. 3. Functions of OS: Resource Management: Efficiently allocates and manages hardware resources. Virtualization: Creates a virtual environment for applications.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 07/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-071223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-071223/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-071223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-071223/</guid>
       <description>Music &amp;amp; Me Project: Navigating Challenges and Learning Experiences Today marked the inception of my Music&amp;amp;Me project, an endeavor to connect ChatGPT with Spotify APIs. The vision was to create a platform where users could chat with ChatGPT, have their emotions analyzed, and receive personalized Spotify tracks in their mother tongue and English.
 Challenges and Learnings The journey, however, encountered a roadblock when attempting to set up the project locally. Running npm install in the command line resulted in an endless hang, leaving me puzzled.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 06/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-061223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-061223/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-061223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-061223/</guid>
       <description>Summarizing the key learnings Key Learnings: Service-Oriented Architecture (SOA) and Microservices:
 Definition: SOA and microservices are architectural approaches for designing and developing software systems. SOA emphasizes building applications as a set of interconnected services, while microservices focus on creating small, independent services that work together. References: Industry practices, such as those adopted by companies like Netflix, Amazon, and Spotify, showcase the application of SOA and microservices in real-world scenarios. Evolution of Concepts in Technology:</description>
     </item>
     
     <item>
       <title>API Design</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/api-designer/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/api-designer/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/api-designer/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/api-designer/</guid>
       <description>Module 1: Introduction to APIs Learning Objectives: Define APIs and their impact: APIs (Application Programming Interfaces) serve as bridges between different software applications, enabling seamless communication and data exchange. Acknowledge the digital feedback loop: Emphasizes the continuous cycle of gathering insights from digital interactions to refine and improve services. Summarize the business benefits of APIs: Business benefits include new revenue streams, expanded reach and retention, faster partnerships, mobile and omnichannel capabilities, interaction analytics, outsourced innovation, self-service integration, and organizational agility.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 05/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-051223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-051223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-051223/</guid>
       <description>Learnings of the Day 05/12 Learnings 1. Mirror of a Binary Tree Description: Explored the concept of mirroring a binary tree. Code Example: isMirror function checks if a tree is a mirror of itself. 2. Depth of a Binary Tree Description: Calculated the depth (height) of a binary tree. Code Example: Recursive approach to find the maximum depth of a tree. 3. Minimum Depth of a Binary Tree Description: Determined the minimum depth of a binary tree.</description>
     </item>
     
     <item>
       <title>Understanding Perception vs Bias and Conservative vs Liberal Perspectives</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/perception-bias-conservative-liberal/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/perception-bias-conservative-liberal/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/perception-bias-conservative-liberal/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/perception-bias-conservative-liberal/</guid>
       <description>Perception vs Bias and Conservative vs Liberal Perspectives Perception vs Bias Perception refers to the way we interpret and make sense of the world around us. It involves processing sensory information to understand our environment.
 For Example: Two people witnessing the same event may perceive it differently based on their individual experiences and perspectives.
 Psychologically, understanding individual perceptions helps in addressing cognitive biases and promoting empathy.
@@ -163,48 +163,48 @@ Artists play with perception, using techniques to create illusions or challenge 
     
     <item>
       <title>Anxious Attachment</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/anxious-attachment/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/anxious-attachment/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/anxious-attachment/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/anxious-attachment/</guid>
       <description>What is Anxious Attachment? Anxious attachment is a style of attachment that is rooted in the concept of attachment. It is a style of attachment that is rooted in the concept of attachment. It
 Attachments play a crucial role in our lives, influencing our connections from childhood to adulthood. How we form attachments can reflect our past experiences and impact our self-worth. One attachment style that often leads to anxiety in relationships is the Anxious Preoccupied Attachment.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 04/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-041223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-041223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-041223/</guid>
       <description>Learnings of the Day 04/12 Learnings Today Binary Trees Operations: Implemented various operations like insertion, search, and traversal (BFS, DFS). Recursive Algorithms: Explored recursive approaches for tree-related problems, enhancing understanding. Error Handling: Encountered and resolved type mismatch issues during implementations. Challenges Faced Pointer Understanding: Initially struggled with the distinction between &amp;lsquo;-&amp;gt;&amp;rsquo; and &amp;lsquo;.&amp;rsquo; when dealing with pointers. Overcoming Challenges Type Handling: Learned to handle type mismatches through explicit type conversions. Debugging Approach: Enhanced debugging skills to identify and resolve conversion errors effectively.</description>
     </item>
     
     <item>
       <title>First Blog</title>
-      <link>https://Cyber-Aju.github.io/Blog/first-blog/</link>
+      <link>https://Cyber-Aju.github.io/demo/first-blog/</link>
       <pubDate>Sun, 03 Dec 2023 13:25:07 +0530</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/first-blog/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/first-blog/</guid>
       <description>Here is the blog post. Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 03/12</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-031223/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-031223/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</guid>
       <description>A Journey into Hugo: Overcoming Challenges, Embracing New Learnings Learnings of the Day Today has been an exciting day filled with valuable lessons and new discoveries. The primary focus was on setting up a blog using Hugo, a static site generator, and the challenges encountered along the way.
 1. Hugo Basics Learning the basics of Hugo, such as installing the tool, creating a new site, and understanding the structure of the configuration files, laid a strong foundation for the day&amp;rsquo;s journey.</description>
     </item>
     
     <item>
       <title>The Art Of Subtle Influence</title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/the-art-of-subtle-influence/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/the-art-of-subtle-influence/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/the-art-of-subtle-influence/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/the-art-of-subtle-influence/</guid>
       <description>#The Art of Subtle Influence
 How to Lead When You Don’t Have Control By Aja | Dec, 2023
 In the realm of leadership, the challenges of navigating personalities and influencing change often emerge. What if your colleague&amp;rsquo;s behaviors hinder collaboration, or your team faces someone resistant to feedback? As a leader, it&amp;rsquo;s crucial to master the art of influence, especially when direct control isn&amp;rsquo;t at your disposal.
@@ -213,10 +213,10 @@ In the realm of leadership, the challenges of navigating personalities and influ
     
     <item>
       <title></title>
-      <link>https://Cyber-Aju.github.io/Blog/posts/snapies/</link>
+      <link>https://Cyber-Aju.github.io/demo/posts/snapies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/posts/snapies/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/posts/snapies/</guid>
       <description>My Photography Portfolio Click on the images to zoom:</description>
     </item>
     
