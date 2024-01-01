@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hugo on The Lone Coder Aju Blog</title>
-    <link>https://Cyber-Aju.github.io/demo/tags/hugo/</link>
-    <description>Recent content in hugo on The Lone Coder Aju Blog</description>
+    <title>hugo on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/hugo/</link>
+    <description>Recent content in hugo on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings of the Day 03/12</title>
-      <link>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</link>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-031223/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/posts/learining-of-the-day-031223/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-031223/</guid>
       <description>A Journey into Hugo: Overcoming Challenges, Embracing New Learnings Learnings of the Day Today has been an exciting day filled with valuable lessons and new discoveries. The primary focus was on setting up a blog using Hugo, a static site generator, and the challenges encountered along the way.
 1. Hugo Basics Learning the basics of Hugo, such as installing the tool, creating a new site, and understanding the structure of the configuration files, laid a strong foundation for the day&amp;rsquo;s journey.</description>
     </item>

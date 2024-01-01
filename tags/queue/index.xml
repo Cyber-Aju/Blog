@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>queue on The Lone Coder Aju Blog</title>
-    <link>https://Cyber-Aju.github.io/demo/tags/queue/</link>
-    <description>Recent content in queue on The Lone Coder Aju Blog</description>
+    <title>queue on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/queue/</link>
+    <description>Recent content in queue on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/queue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings of the Day 09/12</title>
-      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</link>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-091223/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-091223/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-091223/</guid>
       <description>Learnings of the Day Today&amp;rsquo;s exploration led to insightful learnings in the realm of operating systems, process lifecycles, creation of processes, termination, and scheduling algorithms.
 Process Lifecycle: Importance: Resource Management:
 Efficient allocation and deallocation of resources prevent leaks and ensure availability for other processes. Multitasking and Concurrency:
