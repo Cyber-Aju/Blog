@@ -6,7 +6,17 @@
     <description>Recent content on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Day 01/01</title>
+      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-010124/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-010124/</guid>
+      <description>SQL SQL (Structured Query Language) is a language used for managing and manipulating relational databases. Here are some fundamental SQL commands:
+1. CREATE DATABASE: Usage: CREATE DATABASE database_name; Description: Creates a new database with the specified name. 2. USE: Usage: USE database_name; Description: Switches to the specified database, making it the active database for subsequent operations. 3. CREATE TABLE: Usage: CREATE TABLE table_name ( column1 datatype, column2 datatype, ... ); Description: Creates a new table with the specified columns and data types.</description>
+    </item>
+    
     <item>
       <title>Learnings of the DEC</title>
       <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-311223/</link>
