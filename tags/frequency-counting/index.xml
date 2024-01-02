@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Frequency Counting on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/frequency-counting/</link>
+    <description>Recent content in Frequency Counting on Loner Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/frequency-counting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 02/01</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/</guid>
+      <description>Step 1: Frequency Counting
+An array mp of size 201 is created to store the frequency of each element in nums. This array&amp;rsquo;s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector
+Initialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered.</description>
+    </item>
+    
+  </channel>
+</rss>

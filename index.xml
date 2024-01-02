@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Day 02/01</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/</guid>
+      <description>Step 1: Frequency Counting
+An array mp of size 201 is created to store the frequency of each element in nums. This array&amp;rsquo;s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector
+Initialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered.</description>
+    </item>
+    
+    <item>
       <title>GitHub Actions Deployment Issues</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/github-action-error/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>

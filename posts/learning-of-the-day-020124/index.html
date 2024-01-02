@@ -6,8 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Day 02/01 | Loner Bytes</title>
-<meta name="keywords" content="github actions">
-<meta name="description" content="GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using &lsquo;git push -f origin main&rsquo;. The modified README file was successfully uploaded to GitHub.">
+<meta name="keywords" content="learning, cpp, Frequency Counting">
+<meta name="description" content="Step 1: Frequency Counting
+An array mp of size 201 is created to store the frequency of each element in nums. This array&rsquo;s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector
+Initialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered.">
 <meta name="author" content="Ajmal Akram">
 <link rel="canonical" href="https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/">
 <link crossorigin="anonymous" href="/Blog/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
@@ -57,7 +59,9 @@
 
     </style>
 </noscript><meta property="og:title" content="Day 02/01" />
-<meta property="og:description" content="GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using &lsquo;git push -f origin main&rsquo;. The modified README file was successfully uploaded to GitHub." />
+<meta property="og:description" content="Step 1: Frequency Counting
+An array mp of size 201 is created to store the frequency of each element in nums. This array&rsquo;s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector
+Initialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T00:00:00+00:00" />
@@ -65,7 +69,9 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Day 02/01"/>
-<meta name="twitter:description" content="GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using &lsquo;git push -f origin main&rsquo;. The modified README file was successfully uploaded to GitHub."/>
+<meta name="twitter:description" content="Step 1: Frequency Counting
+An array mp of size 201 is created to store the frequency of each element in nums. This array&rsquo;s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector
+Initialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered."/>
 
 
 <script type="application/ld+json">
@@ -94,12 +100,12 @@
   "@type": "BlogPosting",
   "headline": "Day 02/01",
   "name": "Day 02\/01",
-  "description": "GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using \u0026lsquo;git push -f origin main\u0026rsquo;. The modified README file was successfully uploaded to GitHub.",
+  "description": "Step 1: Frequency Counting\nAn array mp of size 201 is created to store the frequency of each element in nums. This array\u0026rsquo;s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector\nInitialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered.",
   "keywords": [
-    "github actions"
+    "learning", "cpp", "Frequency Counting"
   ],
-  "articleBody": "GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using ‘git push -f origin main’. The modified README file was successfully uploaded to GitHub. However, despite this, the GitHub Actions deployment continued to show an error, impacting the GitHub Pages hosted through the actions. The Problem is Solved using google and ChatGPT lol!!\nIf you force pushed to the main branch after making changes directly on GitHub, it can cause inconsistencies and potential issues, especially if the GitHub Actions workflow is triggered during or after the force push. Here’s a step-by-step guide to resolve this issue:\nBackup Local Changes:\nIf you have local changes that you want to keep, make sure to commit or stash them before proceeding. Fetch Changes:\nFetch the latest changes from the remote repository to ensure your local repository is up to date. git fetch origin Revert Force Push Locally:\nRevert the force push you did locally. This step is necessary to avoid pushing a forceful history rewrite to the remote. git reflog Find the commit hash before the force push and reset to that commit: git reset --hard Replace with the hash you found in the reflog. Pull Latest Changes:\nPull the latest changes from the remote repository to ensure you have the most up-to-date code. git pull origin main Reapply Local Changes:\nIf you stashed changes earlier, apply the stash. git stash apply Commit and Push:\nCommit your changes locally.\ngit add . git commit -m \"Your commit message\" Push the changes to the remote repository.\ngit push origin main GitHub Actions:\nAfter pushing the changes, GitHub Actions should pick up the new commit and trigger the workflow. Check the GitHub Actions tab to ensure the workflow runs successfully. GitHub Pages Deployment:\nIf GitHub Pages deployment is part of your workflow, ensure that it has the correct configuration and is set up to deploy the main branch. By following these steps, you should be able to resolve inconsistencies between your local and remote repositories and avoid force pushing in a way that disrupts GitHub Actions workflows. Always be cautious with force pushes, especially on shared branches and in collaboration scenarios.\nAfter i Make changes to ‘deploy.yml’ here i rectified ..!\n",
-  "wordCount" : "416",
+  "articleBody": "Step 1: Frequency Counting\nAn array mp of size 201 is created to store the frequency of each element in nums. This array’s size is chosen based on the problem constraints. Iterate through the array nums and update the frequency of each element in mp. Keep track of the maximum frequency encountered (stored in maxrow). Step 2: Initialize 2D Vector\nInitialize a 2D vector ans with maxrow number of rows. This is based on the maximum frequency encountered. Step 3: Distribute Elements in Rows\nIterate through the array nums again. Distribute the elements in the rows of ans based on their frequencies. Decrease the frequency after placing the element in the row. Step 4: Return the Resulting 2D Array\nReturn the resulting 2D array ans. Now, let’s analyze the code:\nclass Solution { public: vector\u003cvector\u003cint\u003e\u003e findMatrix(vector\u003cint\u003e\u0026 nums) { std::ios::sync_with_stdio(false); cin.tie(NULL); int n = nums.size(), maxrow = 0; array\u003cint, 201\u003e mp = {0}; // Step 1: Frequency Counting for (int i = 0; i \u003c n; i++) { mp[nums[i]]++; maxrow = max(maxrow, mp[nums[i]]); } // Step 2: Initialize 2D Vector vector\u003cvector\u003cint\u003e\u003e ans(maxrow); // Step 3: Distribute Elements in Rows for (int i = 0; i \u003c n; i++) { ans[mp[nums[i]] - 1].push_back(nums[i]); mp[nums[i]]--; } // Step 4: Return the Resulting 2D Array return ans; } }; Time Complexity Analysis:\nThe time complexity is O(N), where N is the length of the input array nums. The code iterates through the array twice, and each iteration takes linear time. Space Complexity Analysis:\nThe space complexity is O(N), where N is the length of the input array nums. The space is used to store the frequency array mp and the resulting 2D array ans. The maximum size of mp is constant (201), so it doesn’t contribute significantly to the overall space complexity. Pattern Used:\nThe solution uses a frequency counting pattern to keep track of the occurrences of each element and then distributes them in rows based on their frequencies. The goal is to minimize the number of rows while ensuring that each row contains distinct integers. This pattern is particularly useful when you need to organize elements based on their frequencies or occurrences in the input array.\n",
+  "wordCount" : "364",
   "inLanguage": "en",
   "datePublished": "2024-01-02T00:00:00Z",
   "dateModified": "2024-01-02T00:00:00Z",
@@ -193,91 +199,80 @@
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="github-actions-deployment-issue-readme-modifications-forceful-push-and-persistent-errors">GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors<a hidden class="anchor" aria-hidden="true" href="#github-actions-deployment-issue-readme-modifications-forceful-push-and-persistent-errors">#</a></h2>
-<p>I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using &lsquo;git push -f origin main&rsquo;. The modified README file was successfully uploaded to GitHub. However, despite this, the GitHub Actions deployment continued to show an error, impacting the GitHub Pages hosted through the actions. The Problem is Solved using google and ChatGPT lol!!</p>
-<p>If you force pushed to the <code>main</code> branch after making changes directly on GitHub, it can cause inconsistencies and potential issues, especially if the GitHub Actions workflow is triggered during or after the force push. Here&rsquo;s a step-by-step guide to resolve this issue:</p>
-<ol>
-<li>
-<p><strong>Backup Local Changes:</strong></p>
+  <div class="post-content"><p><strong>Step 1: Frequency Counting</strong></p>
 <ul>
-<li>If you have local changes that you want to keep, make sure to commit or stash them before proceeding.</li>
+<li>An array <code>mp</code> of size 201 is created to store the frequency of each element in <code>nums</code>. This array&rsquo;s size is chosen based on the problem constraints.</li>
+<li>Iterate through the array <code>nums</code> and update the frequency of each element in <code>mp</code>.</li>
+<li>Keep track of the maximum frequency encountered (stored in <code>maxrow</code>).</li>
 </ul>
-</li>
-<li>
-<p><strong>Fetch Changes:</strong></p>
+<p><strong>Step 2: Initialize 2D Vector</strong></p>
 <ul>
-<li>Fetch the latest changes from the remote repository to ensure your local repository is up to date.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git fetch origin
-</span></span></code></pre></div></li>
+<li>Initialize a 2D vector <code>ans</code> with <code>maxrow</code> number of rows. This is based on the maximum frequency encountered.</li>
 </ul>
-</li>
-<li>
-<p><strong>Revert Force Push Locally:</strong></p>
+<p><strong>Step 3: Distribute Elements in Rows</strong></p>
 <ul>
-<li>Revert the force push you did locally. This step is necessary to avoid pushing a forceful history rewrite to the remote.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git reflog
-</span></span></code></pre></div>Find the commit hash before the force push and reset to that commit:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git reset --hard &lt;commit-hash&gt;
-</span></span></code></pre></div>Replace <code>&lt;commit-hash&gt;</code> with the hash you found in the reflog.</li>
+<li>Iterate through the array <code>nums</code> again.</li>
+<li>Distribute the elements in the rows of <code>ans</code> based on their frequencies. Decrease the frequency after placing the element in the row.</li>
 </ul>
-</li>
-<li>
-<p><strong>Pull Latest Changes:</strong></p>
+<p><strong>Step 4: Return the Resulting 2D Array</strong></p>
 <ul>
-<li>Pull the latest changes from the remote repository to ensure you have the most up-to-date code.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull origin main
-</span></span></code></pre></div></li>
+<li>Return the resulting 2D array <code>ans</code>.</li>
 </ul>
-</li>
-<li>
-<p><strong>Reapply Local Changes:</strong></p>
+<p>Now, let&rsquo;s analyze the code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> findMatrix(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
+</span></span><span style="display:flex;"><span>        cin.tie(NULL);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> nums.size(), maxrow <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#ae81ff">201</span><span style="color:#f92672">&gt;</span> mp <span style="color:#f92672">=</span> {<span style="color:#ae81ff">0</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 1: Frequency Counting
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            mp[nums[i]]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            maxrow <span style="color:#f92672">=</span> max(maxrow, mp[nums[i]]);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 2: Initialize 2D Vector
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> ans(maxrow);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 3: Distribute Elements in Rows
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            ans[mp[nums[i]] <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].push_back(nums[i]);
+</span></span><span style="display:flex;"><span>            mp[nums[i]]<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 4: Return the Resulting 2D Array
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> ans;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p><strong>Time Complexity Analysis:</strong></p>
 <ul>
-<li>If you stashed changes earlier, apply the stash.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git stash apply
-</span></span></code></pre></div></li>
+<li>The time complexity is O(N), where N is the length of the input array <code>nums</code>. The code iterates through the array twice, and each iteration takes linear time.</li>
 </ul>
-</li>
-<li>
-<p><strong>Commit and Push:</strong></p>
+<p><strong>Space Complexity Analysis:</strong></p>
 <ul>
-<li>
-<p>Commit your changes locally.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Your commit message&#34;</span>
-</span></span></code></pre></div></li>
-<li>
-<p>Push the changes to the remote repository.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push origin main
-</span></span></code></pre></div></li>
+<li>The space complexity is O(N), where N is the length of the input array <code>nums</code>. The space is used to store the frequency array <code>mp</code> and the resulting 2D array <code>ans</code>. The maximum size of <code>mp</code> is constant (201), so it doesn&rsquo;t contribute significantly to the overall space complexity.</li>
 </ul>
-</li>
-<li>
-<p><strong>GitHub Actions:</strong></p>
+<p><strong>Pattern Used:</strong></p>
 <ul>
-<li>After pushing the changes, GitHub Actions should pick up the new commit and trigger the workflow. Check the GitHub Actions tab to ensure the workflow runs successfully.</li>
+<li>The solution uses a frequency counting pattern to keep track of the occurrences of each element and then distributes them in rows based on their frequencies. The goal is to minimize the number of rows while ensuring that each row contains distinct integers.</li>
 </ul>
-</li>
-<li>
-<p><strong>GitHub Pages Deployment:</strong></p>
-<ul>
-<li>If GitHub Pages deployment is part of your workflow, ensure that it has the correct configuration and is set up to deploy the <code>main</code> branch.</li>
-</ul>
-</li>
-</ol>
-<p>By following these steps, you should be able to resolve inconsistencies between your local and remote repositories and avoid force pushing in a way that disrupts GitHub Actions workflows. Always be cautious with force pushes, especially on shared branches and in collaboration scenarios.</p>
-<p>After i Make changes to &lsquo;deploy.yml&rsquo; here i rectified ..!</p>
+<p>This pattern is particularly useful when you need to organize elements based on their frequencies or occurrences in the input array.</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://Cyber-Aju.github.io/Blog/tags/github-actions/">github actions</a></li>
+      <li><a href="https://Cyber-Aju.github.io/Blog/tags/learning/">learning</a></li>
+      <li><a href="https://Cyber-Aju.github.io/Blog/tags/cpp/">cpp</a></li>
+      <li><a href="https://Cyber-Aju.github.io/Blog/tags/frequency-counting/">Frequency Counting</a></li>
     </ul>
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Day 02/01 on x"
-        href="https://x.com/intent/tweet/?text=Day%2002%2f01&amp;url=https%3a%2f%2fCyber-Aju.github.io%2fBlog%2fposts%2flearning-of-the-day-020124%2f&amp;hashtags=githubactions">
+        href="https://x.com/intent/tweet/?text=Day%2002%2f01&amp;url=https%3a%2f%2fCyber-Aju.github.io%2fBlog%2fposts%2flearning-of-the-day-020124%2f&amp;hashtags=learning%2ccpp%2cFrequencyCounting">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
             <path
                 d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z"/>
