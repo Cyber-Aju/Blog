@@ -1,5 +1,5 @@
 +++
-title= "Day 02/01"
+title= "GitHub Actions Deployment Issues"
 date= '2024-01-02'
 draft= 'false'
 tags= ["github actions"]
@@ -64,4 +64,4 @@ If you force pushed to the `main` branch after making changes directly on GitHub
 
 By following these steps, you should be able to resolve inconsistencies between your local and remote repositories and avoid force pushing in a way that disrupts GitHub Actions workflows. Always be cautious with force pushes, especially on shared branches and in collaboration scenarios.
 
-After i Make changes to 'deploy.yml' here i rectified ..!
+After i Make changes to 'deploy.yml' here i solved  ..!
