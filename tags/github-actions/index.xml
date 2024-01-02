@@ -6,7 +6,16 @@
     <description>Recent content in github actions on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 02/01</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-020124/</guid>
+      <description>GitHub Actions Deployment Issue: README Modifications, Forceful Push, and Persistent Errors I initially made changes to the README.md file directly on GitHub. Later, I also made modifications to the README file locally. When GitHub Actions automatically triggered a deployment, it encountered an error. To resolve this, I forcefully pushed the changes from my local storage to GitHub using &amp;lsquo;git push -f origin main&amp;rsquo;. The modified README file was successfully uploaded to GitHub.</description>
+    </item>
+    
     <item>
       <title>Learnings of the Day 03/12</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-031223/</link>
