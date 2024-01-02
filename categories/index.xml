@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on The Lone Coder Aju Blog</title>
-    <link>https://Cyber-Aju.github.io/demo/categories/</link>
-    <description>Recent content in Categories on The Lone Coder Aju Blog</description>
+    <title>Categories on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/categories/</link>
+    <description>Recent content in Categories on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Others</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/others/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/others/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/others/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/others/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cogita_Read</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/cogita_read/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/cogita_read/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/cogita_read/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/cogita_read/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Days_Of_Cpp</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/days_of_cpp/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/days_of_cpp/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/days_of_cpp/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/days_of_cpp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>leetcode</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/leetcode/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/leetcode/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/leetcode/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/leetcode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/git/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/git/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/git/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OS</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/os/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/os/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/os/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/os/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New_tech</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/new_tech/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/new_tech/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/new_tech/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/new_tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git/Github</title>
-      <link>https://Cyber-Aju.github.io/demo/categories/git/github/</link>
+      <link>https://Cyber-Aju.github.io/Blog/categories/git/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/categories/git/github/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/categories/git/github/</guid>
       <description></description>
     </item>
     

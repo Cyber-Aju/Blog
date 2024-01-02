@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>deploy on The Lone Coder Aju Blog</title>
-    <link>https://Cyber-Aju.github.io/demo/tags/deploy/</link>
-    <description>Recent content in deploy on The Lone Coder Aju Blog</description>
+    <title>deploy on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/deploy/</link>
+    <description>Recent content in deploy on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings of the Day 10/12</title>
-      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-101223/</link>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-101223/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-101223/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-101223/</guid>
       <description>Problems Faced: 1. Git Initialization and Pushing: Issue: Facing errors while initializing Git and pushing to a new GitHub repository. Solution: Resolved by reinitializing Git, adding and committing files, and pushing to the repository. 2. GitHub Actions Workflow: Issue: Difficulty in setting up a GitHub Actions workflow for deployment. Solution: Provided guidance on creating a workflow file (deploy.yml) for deploying HTML, CSS, and JS files. 3. GitHub Actions Deprecation Warning: Issue: Received a warning about the deprecation of Node.</description>
     </item>
     

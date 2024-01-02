@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Git/Github on The Lone Coder Aju Blog</title>
-    <link>https://Cyber-Aju.github.io/demo/categories/git/github/</link>
-    <description>Recent content in Git/Github on The Lone Coder Aju Blog</description>
+    <title>Git/Github on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/categories/git/github/</link>
+    <description>Recent content in Git/Github on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://Cyber-Aju.github.io/demo/categories/git/github/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://Cyber-Aju.github.io/Blog/categories/git/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings of the Day 13/12</title>
-      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</link>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/</guid>
       <description>Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m &amp;quot;msg&amp;quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch.</description>
     </item>
     
     <item>
       <title>Learnings of the Day 13/12</title>
-      <link>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</link>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/demo/posts/learning-of-the-day-131223/</guid>
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/</guid>
       <description>Git/Github Learning Summary Basics Git: Version control system created by Linus Torvalds in 2005. Repository: Tracks changes in a codebase and consists of commits (snapshots of files). Branch: An alternate history for code. Merge: Combines branches into a single codebase. Commands $ git init: Initializes a repository. $ git add .: Adds changes to the staged area. $ git commit -m &amp;quot;msg&amp;quot;: Commits changes with a message. $ git branch alternate-universe: Creates a new branch.</description>
     </item>
     
