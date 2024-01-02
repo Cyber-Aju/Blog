@@ -121,4 +121,4 @@ SQL (Structured Query Language) is a language used for managing and manipulating
    - **Description:**
      Removes specific permissions from a user for a particular table.
 
-SQL commands that cover database creation, table manipulation, data retrieval, and user permissions. SQL is a vast language, and these commands provide a foundation for working with relational databases.
+SQL commands that cover database creation, table manipulation, data retrieval, and user permissions. SQL is a vast language, and these commands provide a foundation for working with relational databases..
