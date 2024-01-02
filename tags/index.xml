@@ -1,261 +1,261 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Loner Bytes</title>
-    <link>https://Cyber-Aju.github.io/Blog/tags/</link>
-    <description>Recent content in Tags on Loner Bytes</description>
+    <title>Tags on The Lone Coder Aju Blog</title>
+    <link>https://Cyber-Aju.github.io/demo/tags/</link>
+    <description>Recent content in Tags on The Lone Coder Aju Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/demo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNS</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/cns/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/cns/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/cns/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/cns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/learning/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/learning/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/learning/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>perception</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/perception/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/perception/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/perception/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/perception/</guid>
       <description></description>
     </item>
     
     <item>
       <title>psychology</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/psychology/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/psychology/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/psychology/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/psychology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thoughts</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/thoughts/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/thoughts/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/thoughts/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cpp</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/cpp/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/cpp/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/cpp/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/cpp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JS</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/js/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/js/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/js/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Leetcode</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/leetcode/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/leetcode/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/leetcode/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/leetcode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>problem solving</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/problem-solving/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/problem-solving/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/problem-solving/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/problem-solving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/git/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/git/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/git/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/github/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/github/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/github/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deploy</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/deploy/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/deploy/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/deploy/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/deploy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OS</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/os/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/os/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/os/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/os/</guid>
       <description></description>
     </item>
     
     <item>
       <title>queue</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/queue/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/queue/</link>
       <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/queue/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/queue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trobleshooting</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/trobleshooting/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/trobleshooting/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/trobleshooting/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/trobleshooting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>soa</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/soa/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/soa/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/soa/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/soa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software architecture</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/software-architecture/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/software-architecture/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/software-architecture/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/software-architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stegnography</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/stegnography/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/stegnography/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/stegnography/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/stegnography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/api/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/api/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/api/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>art</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/art/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/art/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/art/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>binary tree</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/binary-tree/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/binary-tree/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/binary-tree/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/binary-tree/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/design/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/design/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/design/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>developer</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/developer/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/developer/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/developer/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/developer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dfs</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/dfs/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/dfs/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/dfs/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/dfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>anxious</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/anxious/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/anxious/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/anxious/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/anxious/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github actions</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/github-actions/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/github-actions/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/github-actions/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/github-actions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github pages</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/github-pages/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/github-pages/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/github-pages/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://Cyber-Aju.github.io/Blog/tags/hugo/</link>
+      <link>https://Cyber-Aju.github.io/demo/tags/hugo/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Cyber-Aju.github.io/Blog/tags/hugo/</guid>
+      <guid>https://Cyber-Aju.github.io/demo/tags/hugo/</guid>
       <description></description>
     </item>
     
