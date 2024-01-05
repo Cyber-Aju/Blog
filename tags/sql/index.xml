@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>sql on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/sql/</link>
+    <description>Recent content in sql on Loner Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 05/01</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-050124/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-050124/</guid>
+      <description>SQL Interview Questions: A Comprehensive Guide When preparing for a SQL interview, it&amp;rsquo;s crucial to be well-versed in various aspects of database management and SQL queries. In this blog post, we&amp;rsquo;ll cover a range of SQL interview questions to help you brush up on your knowledge and feel more confident during your next interview.
+Table of Contents Introduction Common SQL Interview Questions 1. What is SQL? 2. Difference between SQL and NoSQL 3.</description>
+    </item>
+    
+  </channel>
+</rss>
