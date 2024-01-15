@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pl/sql on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/pl/sql/</link>
+    <description>Recent content in pl/sql on Loner Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://Cyber-Aju.github.io/Blog/tags/pl/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learnings of the Days 10/01</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-days-100124/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-days-100124/</guid>
+      <description>Learned completely basics of pl/sql, Thanks to my placement director to spending much time on teaching pl/sql. He covers lots of nuances in the basics of sql with some keypoints related to placement point of view. I noted each &amp;amp; every point and tried to understand it.</description>
+    </item>
+    
+  </channel>
+</rss>
