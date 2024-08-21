@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/array/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/posts/array1/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/categories/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/categories/php/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/posts/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-050124/</loc>
     <lastmod>2024-01-05T00:00:00+00:00</lastmod>
@@ -17,16 +35,7 @@
     <loc>https://Cyber-Aju.github.io/Blog/tags/learning/</loc>
     <lastmod>2024-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/posts/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/tags/sql/</loc>
-    <lastmod>2024-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/tags/</loc>
     <lastmod>2024-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/tags/cpp/</loc>

@@ -6,7 +6,18 @@
     <description>Recent content on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array in PHP</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/array1/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/array1/</guid>
+      <description>Conversions: 1. Array to String Where: Use when you need a simple, readable format, such as displaying list items (implode). Example : Generating a URL query string.
+$params = [&amp;#34;name&amp;#34; =&amp;gt; &amp;#34;Aja&amp;#34;, &amp;#34;role&amp;#34; =&amp;gt; &amp;#34;Developer&amp;#34;]; $queryString = http_build_query($params); echo &amp;#34;https://example.com/?&amp;#34; . $queryString; // Outputs: https://example.com/?name=Aja&amp;amp;role=Developer Query string
+2. Array to Object Where: Use when you need to access elements as properties, particularly in object-oriented programming. Example : Converting configuration arrays in an API response.</description>
+    </item>
+    
     <item>
       <title>Day 05/01</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-050124/</link>
