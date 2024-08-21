@@ -20,6 +20,17 @@ $params = [&amp;#34;name&amp;#34; =&amp;gt; &amp;#34;Aja&amp;#34;, &amp;#34;role
     
     <item>
       <title>Array in PHP</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions-negative/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions-negative/</guid>
+      <description>1. array() Example: $arr = array(&amp;#39;1&amp;#39;, &amp;#39;2&amp;#39;, null, array(&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;)); // Mixing types Output: // Output: [&amp;#39;1&amp;#39;, &amp;#39;2&amp;#39;, null, [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;]] Explanation: While PHP allows mixed types within an array, this can lead to unexpected results when manipulating or accessing elements, particularly if expecting uniform data types. 2. array_fill() Example:
+$arr = array_fill(0, -3, &amp;#39;A&amp;#39;); Output:
+// Output: Warning: array_fill(): Number of elements must be positive in ... // Result: [] Explanation: The function expects num to be a positive integer.</description>
+    </item>
+    
+    <item>
+      <title>Array in PHP</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
       
