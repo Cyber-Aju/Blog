@@ -162,6 +162,20 @@ $params = [&#34;name&#34; =&gt; &#34;Aja&#34;, &#34;role&#34; =&gt; &#34;Develop
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Array in PHP
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>PHP Array Functions 1. Creation &amp; Initialization array() Creates an array. Use when you need to initialize an array with elements.
+Syntax: array(value1, value2, ...) Example: $arr = array(1, 2, 3); or $arr = []; or $arr[] = 1; // Output: [1, 2, 3] array_fill() Fills an array with values. Use when you need an array with *repeated values.
+Syntax: array_fill(start_index, num, value) Example: $arr = array_fill(0, 3, &#39;A&#39;); // Output: [&#39;A&#39;, &#39;A&#39;, &#39;A&#39;] array_fill_keys() Fills an array with values, using keys from another array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-08-19 00:00:00 +0000 UTC'>August 19, 2024</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Ajmal Akram</footer>
+  <a class="entry-link" aria-label="post link to Array in PHP" href="https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Day 05/01
     </h2>
   </header>
@@ -263,20 +277,6 @@ From the question, we need to create three functions: increment(), decrement(), 
   </div>
   <footer class="entry-footer"><span title='2023-12-13 00:00:00 +0000 UTC'>December 13, 2023</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Ajmal Akram</footer>
   <a class="entry-link" aria-label="post link to Learnings of the Day 13/12" href="https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-131223/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Learnings of the Day 12/12
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>1. Problem: Can Make Arithmetic Progression From Sequence Leetcode
-Original Code: class Solution { public: bool canMakeArithmeticProgression(vector&lt;int&gt;&amp; arr) { for(int i=0;i&lt;arr.size();i&#43;&#43;) { int z=arr[0]-arr[1]; if(z!=(arr[i]-arr[i&#43;1])) { return false; } } return true; } }; Modifications: class Solution { public: bool canMakeArithmeticProgression(vector&lt;int&gt;&amp; arr) { sort(arr.begin(),arr.end()); int z=arr[1]-arr[0]; for(int i=0;i&lt;(arr.size()-1);i&#43;&#43;) { if(z!=(arr[i&#43;1]-arr[i])) { return false; } } return true; } }; caused of ‘outbound errors’.
-Complexity: Time Complexity: O(n) Space Complexity: O(1) Challenges Faced: Ensuring correct handling of edge cases and optimizing the code for efficiency and Outbounds Error Learnings: Importance of not always relying on sorting and exploring alternative approaches....</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-12-12 00:00:00 +0000 UTC'>December 12, 2023</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Ajmal Akram</footer>
-  <a class="entry-link" aria-label="post link to Learnings of the Day 12/12" href="https://Cyber-Aju.github.io/Blog/posts/learining-of-the-day-121223/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -19,6 +19,17 @@ $params = [&amp;#34;name&amp;#34; =&amp;gt; &amp;#34;Aja&amp;#34;, &amp;#34;role
     </item>
     
     <item>
+      <title>Array in PHP</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions/</guid>
+      <description>PHP Array Functions 1. Creation &amp;amp; Initialization array() Creates an array. Use when you need to initialize an array with elements.
+Syntax: array(value1, value2, ...) Example: $arr = array(1, 2, 3); or $arr = []; or $arr[] = 1; // Output: [1, 2, 3] array_fill() Fills an array with values. Use when you need an array with *repeated values.
+Syntax: array_fill(start_index, num, value) Example: $arr = array_fill(0, 3, &amp;#39;A&amp;#39;); // Output: [&amp;#39;A&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;A&amp;#39;] array_fill_keys() Fills an array with values, using keys from another array.</description>
+    </item>
+    
+    <item>
       <title>Day 05/01</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-050124/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
