@@ -14,6 +14,18 @@ categories= ["Git/Github"]
 - **Branch:** An alternate history for code.
 - **Merge:** Combines branches into a single codebase.
 
+## Basic Context
+- **unstaged** : before commiting it was in 'unstaged' has happen.
+- **staged** : after commiting it was in 'staged' has happen.
+- **branch**, helps to work on independenly of different modules that can be merge later.
+- **origin** : origin is the remote and the name origin is the default or convention. after you clone, you can see your remote.
+$ git remote
+origin
+- **master** : master is the branch in origin that you want to push your changes to. They both refer to what's on GitHub.
+- **git status** : we are in which state either in staged or unstaged and untracked files.
+- **git log** : displays history of commited messaegs, author with date/time.
+- **stash** : stash if we edit before pull it will abort so 'git stash' helps helps to store it in stack then we can use it in  'git stash pop'.
+
 ### Commands
 - `$ git init`: Initializes a repository.
 - `$ git add .`: Adds changes to the staged area.
