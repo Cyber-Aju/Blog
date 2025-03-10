@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://Cyber-Aju.github.io/Blog/categories/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/controlflow/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/posts/day-01/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/categories/days_of_back/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/errorhandling/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/grammartypes/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/posts/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/selectionsort/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/tags/array/</loc>
     <lastmod>2024-08-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,19 +44,7 @@
     <loc>https://Cyber-Aju.github.io/Blog/posts/array_bultin_functions/</loc>
     <lastmod>2024-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/categories/</loc>
-    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/</loc>
-    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/categories/php/</loc>
-    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/posts/</loc>
-    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/tags/</loc>
     <lastmod>2024-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/posts/learning-of-the-day-050124/</loc>
