@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KeyedCollections on Loner Bytes</title>
+    <link>https://Cyber-Aju.github.io/Blog/tags/keyedcollections/</link>
+    <description>Recent content in KeyedCollections on Loner Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/tags/keyedcollections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 05</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/day-05/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/day-05/</guid>
+      <description>Cover up the best on this week 1. Coding of the day : None 2. JS of the day : ** Indexed collections and Keyed Collections** Indexed Collections : JavaScript does not have an explicit array data type.
+const arr = [45] creates array with one element, Where const arr = Array(45) creates array with no elements but the length of the array.
+At the implementation level, JavaScript&amp;rsquo;s arrays actually store their elements as standard object properties, using the array index as the property name.</description>
+    </item>
+    
+  </channel>
+</rss>

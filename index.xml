@@ -6,7 +6,36 @@
     <description>Recent content on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 05</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/day-05/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/day-05/</guid>
+      <description>Cover up the best on this week 1. Coding of the day : None 2. JS of the day : ** Indexed collections and Keyed Collections** Indexed Collections : JavaScript does not have an explicit array data type.
+const arr = [45] creates array with one element, Where const arr = Array(45) creates array with no elements but the length of the array.
+At the implementation level, JavaScript&amp;rsquo;s arrays actually store their elements as standard object properties, using the array index as the property name.</description>
+    </item>
+    
+    <item>
+      <title>Week 01</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/communication-w01/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/communication-w01/</guid>
+      <description>Better than a Yesterday 1. Universal Laws of Communication : Either you having a conversation or you are telling a story or you are issuing a warning or you are not communicating. You are always communicating your creadiabilit, whether you know it or not. All learning involves doing. If your are not in accord with your audiences values, you are not communicating. 2. Golden rule of Communication : Anything thatdistracts people from the message is a problem.</description>
+    </item>
+    
+    <item>
+      <title>Day 04</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/day-04/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/day-04/</guid>
+      <description>Becoming Lazy 1. Coding of the day : None 2. JS of the day : Dates/Times and Regular Expressions Dates and Times : JavaScript does not have a date data type. However, you can use the Date object and its methods to work with dates and times in your applications. The Date object has a large number of methods for setting, getting, and manipulating dates. It does not have any properties.</description>
+    </item>
+    
     <item>
       <title>Day 03</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/day-03/</link>
