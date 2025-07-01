@@ -6,7 +6,17 @@
     <description>Recent content on Loner Bytes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Cyber-Aju.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Day 1 Learning Document</title>
+      <link>https://Cyber-Aju.github.io/Blog/posts/python_01/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://Cyber-Aju.github.io/Blog/posts/python_01/</guid>
+      <description>📘 Python Day 1 Learning Document ✅ Topics Practiced Variables &amp;amp; Data Types Basic Functions Lists Dictionaries Nested Data Access Control Flow (if-else) 🧠 Session Summary and Corrections 🔹 Variables &amp;amp; Strings name = &amp;#34;ajmal&amp;#34; # ✅ Valid string assignment age = 28 # ✅ Integer assignment ajn = &amp;#39;2a&amp;#39; # ✅ String with alphanumeric content ❌ Mistakes:
+name = &amp;#34;ajmal # ❌ Missing closing quote — causes `SyntaxError: EOL while scanning string literal` ajn = 2a # ❌ Invalid syntax — 2a is not a valid variable assignment 🔹 Printing and Types print(name) # ajmal print(type(name)) # &amp;lt;type &amp;#39;str&amp;#39;&amp;gt; (Python 2.</description>
+    </item>
+    
     <item>
       <title>Day 05</title>
       <link>https://Cyber-Aju.github.io/Blog/posts/day-05/</link>
