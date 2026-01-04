@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Cyber-Aju.github.io/Blog/categories/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <loc>https://Cyber-Aju.github.io/Blog/posts/journal04jan2025/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/tags/learning/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <loc>https://Cyber-Aju.github.io/Blog/categories/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/daily-log/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/journal/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/categories/journal_2025/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/posts/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/reflection/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/self-discipline/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Cyber-Aju.github.io/Blog/tags/learning/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/tags/python/</loc>
@@ -21,9 +42,6 @@
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/posts/python_01/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Cyber-Aju.github.io/Blog/tags/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Cyber-Aju.github.io/Blog/tags/communication/</loc>
